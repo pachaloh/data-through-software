@@ -1,0 +1,254 @@
+Timestamp,Gender,Nationality/Country of Origin,Which of the following qualifications best describes you?,Do you know how to use functions in R? ,"Do you already use the tidyverse packages in R such as dplyr, tidyr, tibble and ggplot2? ",Do you need to analyse large collections of related time series? ,"Would you like to learn how to use some tidy tools for time series analysis including visualization, decomposition and forecasting? ",Which of the two modes of learning will be suitable for you?
+7/21/2023 19:15,Male,Malawian ,M and E officer ,Yes,Yes,Yes,Yes,Online
+7/21/2023 19:16,Male,Malawi,Junior Researcher,No,No,Yes,Yes,Online
+7/21/2023 19:16,Male,Malawian ,Junior Researcher,Yes,No,Yes,Yes,Physical
+7/21/2023 19:21,Male,Malawi ,Undergraduate student ,No,No,No,No,Physical
+7/21/2023 19:22,Male,Malawian,Junior Researcher,Yes,Yes,Yes,Yes,Online
+7/21/2023 19:23,Male,Malawi,Junior Researcher,Yes,No,Yes,Yes,"Physical, Online"
+7/21/2023 19:26,Male,Malawian/Malawi,MSc Student,No,No,Yes,Yes,Physical
+7/21/2023 19:28,Male,Malawian,MSc Student,No,No,Yes,Yes,Online
+7/21/2023 19:30,Male,Malawi ,MSc Student,No,No,Yes,Yes,Online
+7/21/2023 19:37,Male,Malawi ,Junior Researcher,No,No,Yes,Yes,"Physical, Online"
+7/21/2023 19:41,Male,Malawian,Junior Researcher,No,No,Yes,Yes,Online
+7/21/2023 19:41,Male,Malawi,Junior Researcher,Yes,No,Yes,Yes,Online
+7/21/2023 19:43,Male,Malawian ,Student ,No,No,Yes,Yes,Online
+7/21/2023 19:44,Male,Malawi ,Junior Researcher,No,No,Yes,Yes,Online
+7/21/2023 19:49,Male,Malawi,MSc Student,Yes,Yes,Yes,Yes,Physical
+7/21/2023 19:54,Male,Malawian ,Junior Researcher,Yes,Yes,Yes,Yes,Physical
+7/21/2023 20:07,Male,Malawi,Senior Researcher,No,No,Yes,Yes,Online
+7/21/2023 20:08,Male,Malawi ,Junior Researcher,No,No,Yes,Yes,Online
+7/21/2023 20:09,Female,Malawian,MSc Student,Yes,No,Yes,Yes,Online
+7/21/2023 20:11,Male,Malawian/Malawi ,Junior Researcher,No,No,Yes,Yes,Online
+7/21/2023 20:12,Female,Malawian,MSc Student,No,No,Yes,Yes,Physical
+7/21/2023 20:12,Male,Malawian,Junior Researcher,No,No,Yes,Yes,Online
+7/21/2023 20:12,Male,Malawi,Junior Researcher,Yes,No,Yes,Yes,Online
+7/21/2023 20:17,Male,Malawian ,Student ,Yes,Yes,Yes,Yes,Online
+7/21/2023 20:19,Male,Malawian ,MSc Student,No,No,Yes,Yes,Online
+7/21/2023 20:20,Male,Malawi ,Junior Researcher,Yes,No,Yes,Yes,Online
+7/21/2023 20:21,Male,Malawian,Junior Researcher,No,No,Yes,Yes,Online
+7/21/2023 20:22,Male,Malawian,Junior Researcher,No,No,Yes,Yes,"Physical, Online"
+7/21/2023 20:24,Female,Malawi ,Planner,Yes,No,Yes,Yes,Online
+7/21/2023 20:36,Male,Malawi ,MSc Student,Yes,Yes,Yes,Yes,Online
+7/21/2023 20:44,Male,Malawian,Junior Researcher,No,No,Yes,Yes,"Physical, Online"
+7/21/2023 20:50,Female,Malawian ,Bachelor's degree student ,Yes,Yes,Yes,Yes,Physical
+7/21/2023 20:53,Male,Malawi,Bsc in irrigation engineering ,Yes,No,Yes,Yes,Online
+7/21/2023 21:02,Male,Malawian ,Undergraduate ,No,No,Yes,Yes,Physical
+7/21/2023 21:07,Female,Malawian,Junior Researcher,No,Yes,No,Yes,Physical
+7/21/2023 21:34,Female,Malawi,Junior Researcher,Yes,Yes,Yes,Yes,Online
+7/21/2023 21:35,Female,Malawian,Junior Researcher,Yes,No,Yes,Yes,Physical
+7/21/2023 21:39,Male,Malawi,PhD Student,No,No,Yes,Yes,Physical
+7/21/2023 21:48,Male,Malawian,BSc student,No,No,Yes,Yes,Online
+7/21/2023 21:49,Male,MALAWIAN,BSc Student,No,No,Yes,Yes,Online
+7/21/2023 21:50,Male,Country ,Junior Researcher,No,No,Yes,Yes,Online
+7/21/2023 21:50,Male,Malawian,PhD Student,No,No,Yes,Yes,Online
+7/21/2023 22:02,Female,Malawian,Diploma in Secondary education Mathematics and computer studies ,No,No,Yes,Yes,Online
+7/21/2023 22:03,Male,Malawi,Junior Researcher,No,No,Yes,Yes,Online
+7/21/2023 22:15,Male,Malawi,Junior Researcher,Yes,Yes,Yes,Yes,Physical
+7/21/2023 22:17,Female,Malawi ,Senior Researcher,No,No,Yes,Yes,Physical
+7/21/2023 22:47,Male,Malawian,MSc Student,Yes,Yes,Yes,Yes,Online
+7/21/2023 23:09,Male,Malawian,Senior Researcher,No,No,Yes,Yes,"Physical, Online"
+7/21/2023 23:15,Male,Malawi,Data Science BSc Student,No,No,Yes,Yes,Physical
+7/21/2023 23:48,Male,Kenya,PhD Student,No,No,Yes,Yes,Online
+7/21/2023 23:48,Male,Malawi,Senior Researcher,Yes,No,Yes,Yes,"Physical, Online"
+7/22/2023 4:53,Male,Malawian,undergraduate(Bachelor of science in computer science),Yes,Yes,Yes,Yes,Online
+7/22/2023 5:23,Female,Malawi ,Junior Researcher,No,No,No,Yes,Online
+7/22/2023 5:40,Male,Malawian ,MSc Student,Yes,Yes,Yes,Yes,Online
+7/22/2023 6:18,Male,Malawian ,Junior Researcher,No,No,Yes,Yes,Online
+7/22/2023 6:18,Male,Malawi ,MSc Student,No,No,Yes,Yes,Online
+7/22/2023 6:22,Male,Malawi,Junior Researcher,No,No,Yes,Yes,Physical
+7/22/2023 6:30,Female,Malawi,Junior Researcher,No,No,No,Yes,Physical
+7/22/2023 6:49,Female,Malawi ,MSCE,No,No,Yes,Yes,Online
+7/22/2023 6:50,Male,Malawi ,Junior Researcher,No,No,Yes,Yes,Online
+7/22/2023 7:03,Female,Malawian ,Junior Researcher,No,No,Yes,Yes,Online
+7/22/2023 7:07,Male,Malawi ,MSc Student,No,No,Yes,Yes,Online
+7/22/2023 7:17,Female,Malawi,MSc Student,No,No,Yes,Yes,Online
+7/22/2023 7:23,Male,Malawi,Of MSCE,No,No,No,Yes,"Physical, Online"
+7/22/2023 7:27,Female,Malawi,Senior Researcher,No,No,Yes,Yes,Online
+7/22/2023 7:34,Male,Malawi ,Diploma in agriculture. Currently studying agriculture extension at LUANAR ,No,No,Yes,Yes,Online
+7/22/2023 7:36,Male,Malawi ,MSc Student,No,No,Yes,Yes,Online
+7/22/2023 7:39,Male,Malawi ,Junior Researcher,Yes,No,Yes,Yes,Physical
+7/22/2023 7:40,Female,MALAWIAN,Junior Researcher,No,No,Yes,Yes,Online
+7/22/2023 7:43,Female,Malawian ,Undergrad (4th year student ),No,No,No,Yes,Physical
+7/22/2023 7:55,Male,Malawian ,Degree student ,No,No,Yes,Yes,Online
+7/22/2023 7:56,Male,MALAWIAN,Junior Researcher,No,No,Yes,Yes,Physical
+7/22/2023 8:06,Male,MALAWI,Junior Researcher,Yes,No,Yes,Yes,Online
+7/22/2023 8:19,Male,Malawi,Junior Researcher,No,No,Yes,Yes,Online
+7/22/2023 8:21,Male,Malawi ,Technical college certificate in refrigeration systems ,No,No,Yes,Yes,Physical
+7/22/2023 8:25,Female,Malawi,Development economics student ,No,No,Yes,Yes,Online
+7/22/2023 8:51,Female,Malawi ,Junior Researcher,No,Yes,Yes,Yes,Physical
+7/22/2023 8:52,Male,Malawi,Junior Researcher,No,No,Yes,Yes,Online
+7/22/2023 9:09,Male,Malawi ,Junior analyst ,No,No,Yes,Yes,Online
+7/22/2023 9:23,Male,Nigeria ,PostDoc Student,No,No,Yes,Yes,Online
+7/22/2023 9:28,Female,Malawi,Junior Researcher,Yes,No,Yes,Yes,Online
+7/22/2023 10:10,Male,Malawian ,MSc Student,Yes,Yes,Yes,Yes,"Physical, Online"
+7/22/2023 10:12,Male,Malawi,First degree graduand ,No,No,Yes,Yes,Online
+7/22/2023 10:17,Male,Malawi,MSc Student,No,No,Yes,Yes,Physical
+7/22/2023 10:18,Male,Malawi,MSc Student,Yes,Yes,Yes,Yes,Online
+7/22/2023 10:47,Female,Malawi ,Bachelors holder Animal Science ,No,No,Yes,Yes,"Physical, Online"
+7/22/2023 10:47,Male,Malawi ,Just finished my BSc,No,No,Yes,Yes,Physical
+7/22/2023 10:50,Female,Malawian,Undergrad student,No,No,Yes,Yes,Physical
+7/22/2023 10:55,Female,Malawian ,PhD Student,Yes,No,Yes,Yes,Online
+7/22/2023 11:18,Male,Malawi,MSc Student,Yes,No,Yes,Yes,Online
+7/22/2023 11:21,Female,Tanzania,MSc Student,Yes,Yes,Yes,Yes,"Physical, Online"
+7/22/2023 11:36,Male,Malawi ,PhD Student,No,No,Yes,Yes,Online
+7/22/2023 12:01,Male,Malawi,MSc Student,Yes,No,Yes,Yes,Online
+7/22/2023 12:03,Male,Malawian ,Undergraduate student,No,No,Yes,Yes,"Physical, Online"
+7/22/2023 12:21,Male,Malawi,Junior Researcher,No,No,Yes,Yes,"Physical, Online"
+7/22/2023 12:29,Male,Malawi,Project practitioner ,No,No,Yes,Yes,Online
+7/22/2023 12:29,Male,Malawi,MSc Student,Yes,Yes,Yes,Yes,Online
+7/22/2023 12:34,Male,Nigeria ,Junior Researcher,Yes,Yes,Yes,Yes,"Physical, Online"
+7/22/2023 12:35,Male,Malawian,PhD Student,No,No,Yes,Yes,Physical
+7/22/2023 12:38,Female,Malawi ,Junior Researcher,No,No,Yes,Yes,Physical
+7/22/2023 12:39,Female,Malawi,PhD Student,No,No,Yes,Yes,Online
+7/22/2023 12:40,Male,Malawian,Bsc in statistics student,Yes,Yes,Yes,Yes,Online
+7/22/2023 12:40,Female,Malawi,Degree student,Yes,Yes,Yes,Yes,Online
+7/22/2023 12:46,Female,Malawi,Junior Researcher,No,No,Yes,Yes,Physical
+7/22/2023 12:46,Male,Malawi,PhD Student,No,No,Yes,Yes,Online
+7/22/2023 12:47,Male,Malawian ,MSc Student,Yes,Yes,Yes,Yes,Physical
+7/22/2023 13:00,Male,Malawi,Junior Researcher,Yes,Yes,Yes,Yes,Online
+7/22/2023 13:05,Male,Malawian,Junior Researcher,No,No,Yes,Yes,Physical
+7/22/2023 13:07,Male,Malawian,Undergraduate Student ,Yes,No,Yes,Yes,Online
+7/22/2023 13:22,Male,Mozambique ,PhD Student,Yes,Yes,Yes,Yes,Online
+7/22/2023 13:45,Male,Malawian,Senior Researcher,Yes,Yes,Yes,Yes,Physical
+7/22/2023 13:45,Male,Malawian,Project Officer,No,No,Yes,Yes,Online
+7/22/2023 13:48,Male,Malawian ,Junior Researcher,Yes,Yes,Yes,Yes,Online
+7/22/2023 13:57,Male,Malawi ,Undergraduate student ,No,No,No,Yes,Online
+7/22/2023 14:45,Male,Malawi ,Bs Student,No,No,Yes,Yes,Physical
+7/22/2023 14:48,Female,Malawi,Junior Researcher,No,No,Yes,Yes,Physical
+7/22/2023 14:50,Male,Malawian,Junior Researcher,Yes,Yes,Yes,Yes,Online
+7/22/2023 14:52,Male,Ethiopian,PhD Student,Yes,Yes,Yes,Yes,Online
+7/22/2023 15:00,Male,Nigeria ,Senior Researcher,Yes,Yes,Yes,Yes,Online
+7/22/2023 15:00,Female,Malawian,Junior Researcher,No,No,Yes,Yes,Online
+7/22/2023 15:00,Female,Kenya,PostDoc Student,Yes,No,Yes,Yes,Online
+7/22/2023 15:02,Male,Malawian,Junior Researcher,Yes,No,Yes,Yes,Online
+7/22/2023 15:06,Male,Malawi,Junior Researcher,No,No,Yes,Yes,Online
+7/22/2023 15:06,Male,Malawi ,Junior Researcher,No,No,Yes,Yes,Online
+7/22/2023 15:23,Male,Malawi,MSc Student,No,Yes,Yes,Yes,Physical
+7/22/2023 15:28,Female,Malawi,Junior Researcher,No,No,Yes,Yes,Online
+7/22/2023 15:37,Female,Malawian ,MSc Student,No,No,Yes,Yes,"Physical, Online"
+7/22/2023 15:47,Male,Malawi,Data Manager for a resilient food and nutrition security project,Yes,Yes,Yes,Yes,Online
+7/22/2023 16:28,Male,Malawi,MSc Student,Yes,Yes,Yes,Yes,Online
+7/22/2023 16:35,Male,Malawian ,Undergraduate arts economics ,No,No,Yes,Yes,"Physical, Online"
+7/22/2023 16:47,Female,Malawi,Junior Researcher,No,No,Yes,Yes,Physical
+7/22/2023 17:13,Female,Malawian ,Junior Researcher,Yes,Yes,Yes,Yes,"Physical, Online"
+7/22/2023 17:28,Male,Malawi ,Undergraduate ,No,No,Yes,Yes,Physical
+7/22/2023 17:35,Male,Malawian ,Degree Holder,No,No,Yes,Yes,Physical
+7/22/2023 17:38,Male,Malawi,Degree holder ,No,No,Yes,Yes,Physical
+7/22/2023 17:42,Male,zambian/zambia,MSc Student,Yes,Yes,Yes,Yes,Online
+7/22/2023 17:44,Female,Malawi,Bachelor?s student ,No,No,Yes,Yes,Physical
+7/22/2023 17:48,Male,Malawian ,Junior Researcher,Yes,No,No,Yes,Online
+7/22/2023 18:02,Female,Malawian ,Junior Researcher,No,No,No,Yes,Online
+7/22/2023 18:05,Female,Malawi ,Junior Researcher,No,No,Yes,Yes,Online
+7/22/2023 18:31,Male,Malawi,Undergraduate Student,Yes,Yes,Yes,Yes,Online
+7/22/2023 20:35,Male,Malawian,Junior Researcher,No,No,Yes,Yes,Online
+7/22/2023 21:23,Female,Malawian,Bachelor student,No,No,Yes,Yes,Online
+7/22/2023 22:16,Male,Malawi,Junior Researcher,No,No,Yes,Yes,Physical
+7/23/2023 6:42,Male,Malawian,Junior Researcher,No,No,Yes,Yes,Online
+7/23/2023 8:57,Male,Malawian,Diploma in Statistics student,No,No,Yes,Yes,Online
+7/23/2023 10:09,Female,Malawi,Bsc graduate,No,No,No,Yes,Online
+7/23/2023 10:39,Male,Malawi,MSc Student,Yes,Yes,Yes,Yes,Online
+7/23/2023 12:50,Female,MALAWIAN,UNDERGRADUATE,No,No,Yes,Yes,Physical
+7/23/2023 16:03,Male,Kenya ,PhD Student,Yes,No,Yes,Yes,Online
+7/23/2023 16:30,Male,Malawian,MSc Student,No,No,Yes,Yes,Online
+7/23/2023 17:19,Male,Malawi ,Junior Researcher,No,No,Yes,Yes,Online
+7/23/2023 17:30,Male,Malawi,Junior Researcher,No,No,Yes,Yes,Online
+7/23/2023 17:50,Male,Malawi,Junior Researcher,Yes,Yes,Yes,Yes,"Physical, Online"
+7/23/2023 17:58,Male,Malawian,Senior Researcher,No,No,Yes,Yes,Online
+7/23/2023 17:58,Female,malawian,Junior Researcher,No,No,No,Yes,Online
+7/23/2023 18:04,Male,Malawi ,Senior Researcher,No,No,No,Yes,Online
+7/23/2023 19:54,Male,Malawi,Junior Researcher,Yes,Yes,Yes,Yes,Online
+7/23/2023 21:10,Male,Malawi,MSc Student,No,No,Yes,Yes,Physical
+7/23/2023 21:16,Female,Kenya,PhD Student,Yes,Yes,Yes,Yes,Physical
+7/23/2023 21:17,Male,Malawian ,Junior Researcher,No,No,Yes,Yes,Online
+7/23/2023 21:31,Male,Malawi ,Senior Researcher,Yes,No,Yes,Yes,Online
+7/23/2023 21:50,Male,Malawian,MSc Student,Yes,Yes,Yes,Yes,Online
+7/23/2023 23:16,Male,Malawian,Monitoring and Evaluation Intern ,Yes,Yes,Yes,Yes,Online
+7/24/2023 6:37,Male,Malawi ,PhD Student,Yes,Yes,Yes,Yes,Physical
+7/24/2023 8:37,Male,Malawi,MSc Student,Yes,Yes,Yes,Yes,Online
+7/24/2023 9:01,Male,Malawian ,Planning Officer,No,No,Yes,Yes,Online
+7/24/2023 9:05,Male,Malawian ,Junior Researcher,No,No,Yes,Yes,Online
+7/24/2023 10:28,Male,Malawian,Junior Researcher,No,No,Yes,Yes,Online
+7/24/2023 12:59,Male,Malawian,PhD Student,Yes,No,Yes,Yes,Online
+7/24/2023 14:12,Male,Malawi,Final Year Bachelor of Arts (Humanities) student,No,No,No,Yes,Online
+7/24/2023 15:20,Male,Malawian,Employee,Yes,Yes,Yes,Yes,Online
+7/24/2023 15:20,Male,Malawian,Junior Researcher,Yes,Yes,Yes,Yes,Physical
+7/24/2023 15:36,Male,Malawian ,Junior Researcher,Yes,No,Yes,Yes,Online
+7/24/2023 15:53,Male,Malawian ,Undergraduate ,No,No,Yes,Yes,Physical
+7/24/2023 15:58,Male,Malawian ,Junior Researcher,Yes,No,Yes,Yes,Online
+7/24/2023 16:24,Female,Malawi,MSc Student,Yes,Yes,Yes,Yes,Online
+7/24/2023 17:11,Male,Malawian,Junior Researcher,No,No,Yes,Yes,Online
+7/24/2023 20:25,Male,Malawi,MSc Student,Yes,Yes,Yes,Yes,Physical
+7/24/2023 21:36,Male,Malawi,Junior Researcher,Yes,No,Yes,Yes,Physical
+7/25/2023 4:22,Male,Malawian ,Diploma graduate ,No,No,Yes,Yes,Physical
+7/25/2023 10:03,Male,Malawi,Diploma in community development,No,No,Yes,Yes,Physical
+7/25/2023 10:37,Male,Malawi,MSc Student,No,No,Yes,Yes,Online
+7/25/2023 12:17,Male,Malawi,Senior Researcher,Yes,Yes,Yes,Yes,Online
+7/25/2023 12:25,Male,Malawian,MSc Student,No,No,Yes,Yes,Online
+7/25/2023 13:29,Male,MALAWIAN ,Undergraduate Student ,No,No,Yes,Yes,Online
+7/25/2023 17:31,Male,Malawi,Junior Researcher,No,No,Yes,Yes,Online
+7/25/2023 17:36,Male,Malawian,Junior Researcher,Yes,No,Yes,Yes,Online
+7/25/2023 19:27,Male,Malawi,Junior Researcher,No,No,Yes,Yes,Online
+7/25/2023 19:40,Female,Malawi,PhD Student,Yes,Yes,Yes,Yes,Online
+7/25/2023 20:23,Male,Malawi ,Msc holder,No,No,Yes,Yes,Online
+7/25/2023 21:04,Male,MALAWI,Junior Researcher,No,No,Yes,Yes,Online
+7/25/2023 21:29,Male,Malawi ,MSc Student,Yes,Yes,Yes,Yes,Physical
+7/25/2023 22:42,Male,Malawian ,Junior Researcher,No,No,Yes,Yes,Online
+7/26/2023 0:56,Male,Malawi ,Junior Researcher,No,No,Yes,Yes,Online
+7/26/2023 8:22,Male,Malawi,Junior Researcher,Yes,No,Yes,Yes,"Physical, Online"
+7/26/2023 8:34,Male,Malawian,MSc Student,Yes,No,Yes,Yes,Physical
+7/26/2023 9:51,Male,Malawian,MSc Student,No,No,Yes,Yes,Physical
+7/26/2023 13:24,Male,Malawian,Junior Researcher,No,No,Yes,Yes,Physical
+7/26/2023 15:39,Male,Malawian ,MSc Student,Yes,No,Yes,Yes,Online
+7/26/2023 18:13,Male,Malawian ,Senior Researcher,Yes,Yes,Yes,Yes,Physical
+7/27/2023 9:59,Male,Malawian,Junior Researcher,No,No,Yes,Yes,Physical
+7/28/2023 8:48,Female,Malawian,Junior Researcher,No,No,No,Yes,Online
+7/28/2023 12:36,Male,Malawian ,Junior Researcher,Yes,No,Yes,Yes,Online
+7/30/2023 20:10,Male,Malawi,Senior Researcher,Yes,Yes,Yes,Yes,Online
+7/31/2023 12:32,Male,Malawi,MSc Student,No,No,No,Yes,Online
+7/31/2023 12:50,Female,Zambia,MSc Student,Yes,No,Yes,Yes,Online
+7/31/2023 13:00,Male,Malawi,Degree Student ,No,No,Yes,Yes,Online
+7/31/2023 13:00,Male,Malawi,Degree Student,No,No,Yes,Yes,Online
+7/31/2023 21:55,Male,Malawian,Accountant ,No,No,Yes,Yes,Online
+8/1/2023 19:07,Male,Malawian,Undegraduate student,Yes,No,Yes,Yes,Online
+8/1/2023 20:09,Female,Malawi,MSc Student,No,No,Yes,Yes,Online
+8/3/2023 10:17,Female,Malawi ,BSc ,No,No,Yes,Yes,Online
+8/6/2023 14:47,Male,Rwanda,PhD Student,Yes,No,Yes,Yes,Physical
+8/9/2023 17:39,Female,Malawian,Senior Researcher,No,No,Yes,Yes,Online
+8/10/2023 6:50,Male,Malawian,Junior Researcher,No,No,Yes,Yes,Online
+8/10/2023 13:03,Female,Kenya-,Junior Researcher,No,No,Yes,Yes,Physical
+8/12/2023 6:44,Male,Malawi,Junior Researcher,No,No,Yes,Yes,Online
+8/17/2023 16:00,Female,Tanzania ,Senior Researcher,No,No,Yes,Yes,Online
+8/17/2023 16:12,Female,Nigeria,PhD Student,No,No,No,Yes,Physical
+8/17/2023 16:13,Male,Nigeria ,Senior Researcher,No,No,Yes,Yes,"Physical, Online"
+8/17/2023 16:15,Male,Tanzania,Lecturer,No,No,Yes,Yes,Online
+8/17/2023 16:21,Female,Nigeria ,PhD Student,No,No,Yes,Yes,Physical
+8/17/2023 16:26,Female,Malawi ,BSc student ,No,No,No,Yes,Physical
+8/17/2023 16:26,Male,Nigeria ,PostDoc Student,No,No,No,Yes,Online
+8/17/2023 16:28,Female,TANZANIA,PhD Student,Yes,Yes,Yes,Yes,Online
+8/17/2023 16:29,Male,Nigeria,PhD Student,No,No,Yes,Yes,Online
+8/17/2023 16:36,Male,Tanzania,Junior Researcher,No,No,Yes,Yes,Online
+8/17/2023 16:37,Female,Nigeria,PhD Student,No,No,Yes,Yes,Online
+8/17/2023 16:40,Male,Tanzania,Data Analyst ,Yes,Yes,Yes,Yes,Online
+8/17/2023 16:41,Male,ZANZIBAR ,Junior Researcher,No,No,Yes,Yes,Online
+8/17/2023 16:41,Male,Malawian,Alumnus,No,No,Yes,Yes,Physical
+8/17/2023 16:44,Male,TANZANIA ,Junior Researcher,No,No,Yes,Yes,Online
+8/17/2023 16:45,Male,Tanzanian,MSc Student,No,No,Yes,Yes,Online
+8/17/2023 16:45,Male,Tanzanian,MSc Student,No,No,Yes,Yes,"Physical, Online"
+8/17/2023 16:48,Male,Malawi,Junior Researcher,No,No,Yes,Yes,Online
+8/17/2023 16:50,Male,Beninese,PhD Student,No,No,Yes,Yes,Online
+8/17/2023 16:50,Male,Tanzanian,Junior Researcher,Yes,No,Yes,Yes,Online
+8/17/2023 16:53,Male,Tanzania ,Bachelor degree ,Yes,Yes,Yes,Yes,"Physical, Online"
+8/17/2023 16:54,Male,TANZANIAN,Junior Researcher,No,No,Yes,Yes,Online
+8/17/2023 17:05,Male,Tanzania,Junior Researcher,No,No,Yes,Yes,Online
+8/17/2023 17:07,Male,Tanzania,Senior Researcher,Yes,Yes,Yes,Yes,Online
+8/17/2023 17:16,Female,Malawi,Undergraduate student,No,No,Yes,Yes,Online
+8/17/2023 17:33,Female,South Africa,PhD Student,Yes,No,No,Yes,Online
+8/17/2023 17:42,Male,Tanzania ,Junior Researcher,No,No,Yes,Yes,Online
+8/17/2023 17:45,Male,Malawia,Junior Researcher,No,Yes,Yes,Yes,Online
+8/17/2023 17:52,Male,Malawi,Junior Researcher,No,No,Yes,Yes,Online
+8/17/2023 17:59,Female,Malawi ,PhD Student,Yes,Yes,Yes,Yes,Online
+8/17/2023 19:27,Female,Uganda ,PhD Student,No,No,Yes,Yes,"Physical, Online"
+8/17/2023 19:32,Female,Malawi,Senior Researcher,Yes,No,Yes,Yes,Physical
+8/17/2023 20:26,Female,Tanzania ,MSc graduate seeking PhD position ,Yes,Yes,Yes,Yes,Online
+8/17/2023 21:14,Female,Cameroon,PhD Student,Yes,No,Yes,Yes,Online
+8/17/2023 21:20,Female,Malawi,Junior Researcher,,,,,

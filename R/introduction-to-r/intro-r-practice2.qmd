@@ -1,0 +1,369 @@
+---
+title: "intro-r-practice2"
+author: "Pachalo Chizala"
+format: revealjs
+editor: visual
+---
+
+## Introduction to R
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+## Using R as Calculator
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+#| echo: true
+#| output-location: fragment
+2*4+6-5/2.5
+
+sqrt(25)
+5^2
+5**2
+```
+
+## **Objects and Variables**
+
+-   From time to time we are faced with situations where we have to reference to some value stored previously. For example, you might store a value 9 in an object 'a' and later do calculations with as follows:
+
+```{r}
+#| echo: true
+a = 5
+a
+a = a*6
+a
+```
+
+## Variables
+
+-   Suppose you collect information such as name, age and sex of your colleagues at your place of work.
+
+-   We use the function "c" to store all the data in variables name, age and sex
+
+```{r}
+#| echo: true
+name <- c("Patrick", "Gregory", "Bernard", "Lesla", "Bridget", "Rico", "Temwa", "Andrew", "Cecil","Martha","Merriam", "William", "Martha","Mada","Sara",NA)
+age  <- c(23,29,31,21,34,38,28,33,25,NA,30,35,33,30,29,NA)
+sex  <- c(1,1,1,2,2,1,2,1,2,2,2,1,2,2,2,1)
+```
+
+## Variables\| Print
+
+-   We can check the and review the entries for each variable/object by printing the contents using the function "print" or just typing the name of the object/variable
+
+```{r}
+#| echo: true
+print(name) #Note that you can just type the object without the print function
+
+age
+sex
+```
+
+## 
+
+-   We can get number of elements in each vector/object/variable
+
+```{r}
+#| echo: true
+length(name)
+length(age)
+length(sex)
+```
+
+## Data frames
+
+Possibly, interest would be to see corresponding values of each individual side by side. These may not be the best, but they at least save some notable purpose.
+
+```{r}
+#| echo: true
+cbind(name, age, sex) #Combines the variables column-wise
+rbind(name, age, sex) #Combines the variables low-wise. 
+data.frame(name, age, sex) #Combines the variables column-wise. This is the best.
+```
+
+## 
+
+#Saving the data frame to an object called mydata
+
+```{r}
+mydata <- data.frame(name, age, sex)
+mydata
+```
+
+## 
+
+-   In R, "NA" implies missing value (Not applicable). Currently, we would say that we don't yet have Martha's age. And there is a certain male with no name and age.
+
+-   During analysis of data with missing values, a decision has to be made either to remove or impute them in the analysis (not necessarily the dataset)
+
+## Creating and inserting new variables in a data frame
+
+Note now that we have two Marthas, and we may want to distinguish between the two. We may want to give them sequential id numbers. Before we do that, let's look at this
+
+```{r}
+#| echo: true
+#1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16)
+1:16
+```
+
+What do you deduce from here? Note also that `r length(name)` is the number of workmates or the length of each of vectors i.e, name, age and sex. So, we can replace `r length(name)` with
+
+```{r}
+#| echo: true
+1:length(name)
+```
+
+Now, we know how we can create the ids, and we need to attach them to the corresponding names. We can first create id \<- 1: length(name) and then attach it to the data frame mydata, ie as mydata \<- data.frame(id,mydata). Alternatively, this process can be done directly, i.e
+
+```{r}
+#| echo: true
+mydata <- data.frame(id = 1:length(name), mydata)
+mydata
+```
+
+## Getting a feel of the data
+
+```{r}
+#| echo: true
+head(mydata)      #print the first default 6 rows
+head(mydata,5)    #print the first n=5 rows
+tail(mydata)
+tail(mydata,3)
+```
+
+We might question if we really need the id column as R already prints out numbers. What if the ids are not as arranged/sequential as they appear now. Food for thought
+
+# Indexing elements
+
+-   There are times we want information for specific individuals
+
+```{r}
+#| echo: true
+mydata[4,1]
+mydata[4,2]
+mydata[c(4),]
+```
+
+-   What if you wanted to infor for person on row number 1 and 2. What's your guess?
+
+```{r}
+mydata[c(5,4),c(2,4)]
+mydata[c(5,4,5),c(2,4)]   #Everything is possible ;)
+mydata[c(4),2] 
+mydata[c(4,1),2]
+mydata[4,]
+mydata[c(4),]       #If you don't specify any column after the comma, it selects all available columns
+mydata[,c(2,4)]     #Similarly, if you don't specify any row, it selects all available rows
+```
+
+## Indexing
+
+-   And we can specify name of the column, we don't always have to remember the column number of our variable of interest
+
+```{r}
+#| echo: true
+mydata[1:3,"name"]
+mydata[1:3,c("name", "sex")]
+mydata[,"name"]
+```
+
+## 
+
+```{r}
+#| echo: true
+mydata[mydata$sex==1,]
+mydata[mydata$sex==2,]
+mydata[mydata$sex==2,c("name","sex","age")]
+mydata$age[mydata$sex==1]   #Print ages for males
+mean(mydata$age[mydata$sex==1], na.rm = T)  #Avearge age for males
+mean(mydata$age[mydata$sex==2], na.rm = T)  #Avearge age for females
+aggregate(age~sex, data = mydata, mean)     #Print average for sex categories
+
+```
+
+## Sorting/Ordering data.
+
+-   Let's look at the following functions. Take a closer look at the output
+
+```{r}
+#| echo: true
+a <- c(7,4,9,1)
+sort(a) #This sorts individual elements in ascending order
+order(a)
+```
+
+#What is the smallest number in "a"; what position is it?
+
+#What is the second smallest number in "a"; what position is it?
+
+#Compare the output. Remember
+
+```{r}
+#| echo: true
+mydata[c(2,6,3),]
+mydata[order(mydata$sex),] #Sort data by sex
+mydata[order(mydata$sex, mydata$age),] #Sort data by sex and age
+```
+
+## Working inside the data frame
+
+-   Hopefully you get the idea. But now, how do we access variables in a data frame? Suppose we only have the variables age, name, sex in the data frame
+
+```{r}
+#| echo: true
+rm(age, name, sex, a, b)
+mean(mydata[,"age"])
+mean(mydata[,"age"], na.rm = T) 
+mean(mydata["age"], na.rm = T)  #Why won't this work?
+```
+
+## 
+
+-   An alternative (probably the best, but can become lengthy at times) way to reference a variable in a data frame, is to use a dollar (\$) sign as below
+
+```{r}
+#| echo: true
+mydata$age
+```
+
+## Some data summaries
+
+```{r}
+#| echo: true
+head(mydata$age,7)
+mydata$age[6]
+mydata$age[c(6,3)]
+mean(mydata$age, na.rm = T)
+table(mydata$sex)
+```
+
+### Frequencies and proportions
+
+```{r}
+#| echo: true
+1/sum(c(1,1,2)) #First element
+1/sum(c(1,1,2)) #Second elemenet
+2/sum(c(1,1,2)) #Third element
+c(1,1,2)/4      #How cool!!
+c(1,1,2)/sum(c(1,1,2))
+a <- c(1,1,2)
+a/sum(a)
+
+prop.table(1)
+prop.table(c(1,1))
+prop.table(c(1,1,2))  #I hope now you get the idea. Check this
+
+
+```
+
+## 
+
+Let's get back to our problem
+
+```{r}
+#| echo: true
+prop.table(c(1,1,2))
+
+prop.table(a) 
+```
+
+-   Just doing the same thing over and over. The idea is, if you pass a vector of numbers to prop.table, the function will calculate the the proportion of each value to the sum of all elements in the vector.
+
+## 
+
+-   Assume that 1 represents "male" and 2 represents "female". This means, we have 2 males and 1 female. So, we can get the proportions as below.
+
+```{r}
+prop.table(c(2,1))  #Does this make sense?
+```
+
+-   We know we can get these counts of 2 males and 1 female using table function
+
+```{r}
+#| echo: true
+table(c(1,1,2))     #Don't get confused with the output. Then,
+prop.table(table(c(1,1,2))) #Does this make sense?
+```
+
+-   We know, if a = c(1,1,2), then
+
+```{r}
+#| echo: true
+prop.table(table(a))
+```
+
+-   Hopefully, we get the idea! Now, we get back to our data,
+
+```{r}
+#| echo: true
+prop.table(table(mydata$sex))
+```
+
+## Basic graphs
+
+```{r}
+#| echo: true
+hist(mydata$age)
+barplot(table(mydata$sex))  #Barplot of frequencies of sex categories
+
+barplot(prop.table(table(mydata$sex)))  #Barplot of proportions of sex categories
+```
+
+# Merging data
+
+Lets create some data to illustrate the concept
+
+```{r}
+#| echo: true
+id <- sample(1:20, 7, replace = F )
+ed <- factor(sample(1:3,7,replace = T), levels = c(1,2,3), labels = c("none","formal","informal"))
+
+edu.data <- data.frame(id, ed)
+```
+
+#Merge using common variable "id"
+
+```{r}
+#| echo: true
+merge(mydata,edu.data, by = "id")
+merge(mydata,edu.data, by = "id", all.x = T)
+merge(mydata,edu.data, by = "id", all.y = T)
+merge(mydata,edu.data, by = "id", all = T)
+```
+
+\`\`\`
+
+#Section: More useful functions
+
+#Section: More about graphs
+
+#Section: User-defined functions
+
+#APPLICATION
+
+#Candidates, Diamonds Dataset
+
+\#############################################################################
+
+\`\`\`{r}
+
+#setwd("C:/Users/Lenovo/Mirror/MDHS/2015-16")
+
+\# library(haven)
+
+\#
+
+candidates \<- read.csv("c
+
+```{r}
+
+```

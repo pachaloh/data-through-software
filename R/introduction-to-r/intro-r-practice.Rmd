@@ -1,0 +1,637 @@
+---
+title: "Introduction to R"
+author: "Pachalo Chizala"
+date: "`r Sys.Date()`"
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Background
+
+This is a living document... It gets updated as we move. You can add a section This document is developed in R with R Markdown, and hence it is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see. <http://rmarkdown.rstudio.com>. You combine code with text. No need to copy tables from one software such as STATA and paste them to MS Word. 
+
+# Introduction to R
+
+In this journey, we seek to build our confidence working with R including data management and analysis using a statistical software called R- just R. The approach is not just to teach you R, but to use it while on the job. Learning R by skill
+
+Let's get back to our business
+
+# Dive straight in R
+
+## Using R as a calculator
+
+We can use R as a calculator. It follows the rules of arithmetic
+
+```{r}
+#R works as calculator
+2+8
+2*4+6-5/2.5
+(2*4)+6-5/2.5
+5^2
+5**2
+```
+
+We can use R to compare expressions including numbers and letters, i.e.
+```{r}
+#Logical operations
+4==2      #Is 4 equal to 2?
+4==4      #Is 4 equal to 4
+4>=3      #Is 4 greater than or equal to 3
+"a"=="b"  #Is a equal to b
+"a">"b"   #Is greater than b
+```
+
+# Objects, functions and Variables
+
+From time to time we are faced with situations where we have to reference to some value. For instance, you might add two number 9 and 34, and keep the result for later calculations. In R, we can keep this result in an variable object named "a". You can view the contents of this variable by just typing the variable name and place enter. Check the following examples
+
+```{r}
+a = 9+34
+b = 4*5+7
+a
+b
+a + b
+(a+b)/a
+a=a^4-sqrt(a)
+a
+```
+
+R is so fluid and very flexible. Just take caution that it overwrites an existing object (or variable) without issuing a warning. You might have noted this in the last commands.
+
+```{r}
+b = sqrt(a*runif(1)*10)
+if (a > b) {print("a is greater than b")} else {print("a is less than b")}
+```
+
+Suppose you are tasked to collect information such as name, age and sex of your colleagues at your place of work. You collect and write them on a paper. Probably, the next question would be "how do I feed then into R?". 
+
+To this far, we need existing functions to help ease the work at hand, and (almost) all the work we will lay our hands on in R. To this far, we have already used three functions, namely, sqrt(), runif() and print(). One important but simply named function is the c() function. The c() function concatenates different entries, separated by commas, into a vector of the entries.  
+
+Now that we know the c() function, we can make use of it. Take note that you need to save your vector of values to an object of name of your choice. It is, however, important to name your objects or variables with meaningful names. 
+
+```{r}
+name <- c("Patrick", "Gregory", "Bernard", "Lesla", "Bridget", "Rico", "Temwa", "Andrew", "Cecil","Martha","Merriam", "William", "Martha","Mada","Sara",NA)
+age <- c(23,29,31,21,34,38,28,33,25,NA,30,35,33,30,29,NA)
+sex <- c(1,1,1,2,2,1,2,1,2,2,2,1,2,2,2,1)
+```
+
+If you just want to view the entries for each variable/object, you can print the contents using the function print() or just typing name of the object. 
+
+It would definitely be useful to check further if the list matches the number of colleagues you collected data for.
+
+```{r}
+#Print values contained in each variable name, age, and sex
+print(name) 
+age
+sex
+
+#Returns number of items 
+length(name)  
+length(age)
+length(sex)
+```
+
+## Data frames
+Your thoughts are as good as mine if you ever wondered if it were possible to have variables, name, age and sex appear in a structured spreadsheet-like display. Possibly you would have guessed to use the same c() function to concatenate the variables... as in c(name, age, sex).. but this won't give the required result. And since c() only stores values of the same type, you can guess what type of values you will now have.
+
+There are, of course, a number of functions that combine vectors including cbind() and rbind(), but one you will likely come to work more with is the data.frame() function. Let's dive into it...
+
+```{r}
+cbind(name, age, sex)       #Combines the variables column-wise
+rbind(name, age, sex)       #Combines the variables low-wise. 
+data.frame(name, age, sex)  #Combines the variables column-wise. This is the best.
+
+#Saving the data frame to an object called mydata
+mydata <- data.frame(name, age, sex)
+mydata
+```
+
+Now we see better! In R, NA implies a missing value (Not applicable). Currently, we would say that we don't yet have Martha's age, and there is a certain male with no name and age. We will likely ask you to go back and fetch for these values!
+
+Again, note now that we have two Marthas, and, obviously, it will not be easy to distinguish them using names. However, we can assign each person a unique identification number. 
+
+```{r}
+id <- 1:length(name)
+mydata <- data.frame(id,mydata)
+mydata
+```
+
+I hope you are able to follow what's happening here! Let me repeat the statement I once said above, "R is so fluid and very flexible"; you can achieve one task a million ways. Of course, this can also be a little confusing at times. We will soon look at how we can achieve the same task in a different way. For now, I would encourage that you experiment the use of a:b, seq(a,b,c) where a,b and c are numeric values.
+
+But now, we have each person assigned a unique identification number. 
+
+## Having a feel of our data
+Now we have our data, but how do we get a feel of it? If you were handed down a data set,you would want to know what type of data that it is, what variables are in it, and number of cases it contains.
+
+The str() function re
+
+```{r}
+str(mydata)
+dim(mydata)
+names(mydata)
+
+head(mydata)      #print the first default 6 rows
+head(mydata,5)    #print the first n=5 rows
+tail(mydata)
+tail(mydata,3)
+```
+
+### Work practice
+Suppose that your friend asks you to assign the first 10 of your colleagues to department A and the rest to department B. Sure you can achieve this a number of ways, but your final output should use the function rep(). Without any explanation, you may compare with the following:
+
+```{r}
+mydata <- data.frame(mydata,dept=rep(c("A","B"),c(10,6)))
+```
+
+Labeling the levels (categories) of sex.
+
+```{r}
+mydata$sex <- factor(mydata$sex, levels = c(1,2), labels = c("Male","Female"))
+```
+
+You must remember to remove objects that you are not working on
+
+```{r}
+rm(age, name, sex, a, b)
+```
+
+
+# Indexing data frame entries
+
+Look at the data sheet of our mydata. It sure looks like a matrix, one with rows and columns. The rows represents cases.... How would we find the name that is in row number 4? 
+
+```{r}
+mydata[4,2]
+```
+You likely may be wondering why mydata[4,2]. The 4 is for the row number, as you might have guessed, and 2 is the column number. Names are in column 2. If we want all information about person on the fourth, all we need to do is never specify the row number! That makes sense, right? Yeah, I  know, R is intuitive. 
+
+And of course, we are not restricted to getting one row only. Try and practice the following until you get the idea: 
+
+```{r}
+mydata[c(5,4,15),]
+mydata[c(5,4,1),c(2,4)]
+```
+
+And of course, it may sometimes not be practical to keep referencing to row and column numbers. It is possible to specify names of the column, but since rows doesn't have names, we will have to stick to row numbers or other ways. 
+
+```{r}
+mydata[1:3,"name"]
+mydata[1:3,c("name", "sex")]
+mydata[,"name"]
+```
+
+## Accessing variables inside a data frame
+
+Many a times we are so interested in manipulating values of variables contained in a data frame. Of course, we have noticed mydata[,"name"] does the job, however, there is a better way! Here is how! We must specify the name of the data frame, append a dollar sign (\$), and then the variable name, i.e. mydata\$age.  
+
+```{r}
+mydata[,"age"]
+mydata$age
+mydata$name[4]
+```
+
+
+```{r}
+#mean(age)   #This won't work now! Why? And what's your guess on this one below?
+mean(mydata[,"age"])
+mean(mydata[,"age"], na.rm = T) #The use of na.rm has been emphasized enough
+mean(mydata["age"], na.rm = T)  #Why won't this work?
+```
+
+An alternative (probably the the best) way to reference a variable in a data frame, is to use a dollar ($) sign as below
+
+```{r}
+mydata$age
+head(mydata$age,7)
+mydata$age[6]
+mydata$age[c(6,3)]
+
+mean(mydata$age, na.rm = T)
+
+
+table(mydata$sex)
+
+
+#Table of proportions
+
+prop.table(1)
+prop.table(c(1,1))
+prop.table(c(1,1,2))  #I hope now you get the idea. Check this
+
+1/sum(c(1,1,2)) #First element
+1/sum(c(1,1,2)) #Second elemenet
+2/sum(c(1,1,2)) #Third element
+
+
+c(1,1,2)/4      #How cool!!
+c(1,1,2)/sum(c(1,1,2))
+
+a <- c(1,1,2)
+a/sum(a)
+```
+
+Let's get back to our problem
+
+```{r}
+prop.table(c(1,1,2))
+prop.table(a)         
+```
+
+Just doing the same thing over and over. The idea is, if you pass a vector of numbers to prop.table, the function will calculate the the proportion of each value to the sum of all elements in the vector. Assume that 1 represents "male" and 2 represents "female". This means, we have 2 males and 1 female. So, we can get the proportions as below.  
+
+```{r}
+prop.table(c(2,1))  #Does this make sense?
+
+```
+
+We know we can get these counts of 2 males and 1 female using table function
+
+```{r}
+table(c(1,1,2))     #Don't get confused with the output. Then,
+
+
+prop.table(table(c(1,1,2))) #Does this make sense?
+```
+
+We know, if a = c(1,1,2), then 
+```{r}
+prop.table(table(a))
+```
+
+Now, we get back to our data,
+
+```{r}
+prop.table(table(mydata$sex))
+
+
+#Basic graphs
+hist(mydata$age)
+
+barplot(table(mydata$sex))  #Barplot of frequencies of sex categories
+barplot(prop.table(table(mydata$sex)))  #Barplot of proportions of sex categories
+
+#Note the chain.... function of a function of a function of a function.... ;)
+#Will get back to graphs later. Now, how would you select only males. Revisit 
+#the indexing section. 
+
+mydata[mydata$sex==1,]
+mydata[mydata$sex==2,]
+mydata[mydata$sex==2,c("name","sex","age")]
+
+mydata$age[mydata$sex==1]                   #Print ages for males
+
+```
+Practice 1
+grepl() is a function used to test if a string is contained in another string. Use the candidates data set to attempt the following
+
+
+## Descriptive Statistics
+### Frequencies
+
+It is not uncommon to tabulate frequencies for certain categories of variable. For example, we may want to know how many males are in our data set; or the proportion of . 
+```{r}
+table.sex <- table(mydata$sex)
+table.sex
+prop.table(table.sex)*100
+
+```
+Cross tabulation
+```{r}
+options(digits = 3)
+
+tbl.sex.dept <- with(mydata, table(sex,dept))
+tbl.sex.dept
+
+prop.table(tbl.sex.dept,1)*100  #Row proportions
+prop.table(tbl.sex.dept,2)*100  #Column proportions
+```
+The mean() function calculates and returns an average of values in a variable. 
+```{r}
+mean(mydata$age)
+```
+
+If an NA is returned instead, it probably could be that one of the entries is a missing a value. It is possible to check if a vector or data frame has missing values. We can use is.na(mydata$age) for the variable age or is.na(mydata). Try! You will note that R outputs a TRUE for any value which is NA otherwise it outputs a FALSE. One nice property with boolean output is that the FALSE values can also be read as zero and the TRUE as ones. So, if we want a summary output, we can just sum all the TRUE (1s) as
+
+```{r}
+sum(is.na(mydata))
+sum(is.na(mydata$age))
+```
+So, now we are convinced that that the mean() function could not return a value because the variable age has NAs. The NAs can be ignored by passing another parameter to the mean function. 
+
+```{r}
+mean(mydata$age, na.rm = T)   # Average
+sd(mydata[,"age"], na.rm = T) # Standard deviation
+
+```
+Further, we can get the mean for males and females separately, or at one go when using the aggregate function.
+
+```{r}
+mean(mydata$age[mydata$sex=="Male"], na.rm = T)  
+mean(mydata$age[mydata$sex=="Female"], na.rm = T)  
+
+aggregate(age~sex, data = mydata, mean)     #Mean by sex
+```
+Practice 2
+
+## Graphs
+Not all times do numbers do a good job when telling a story. Graphs are best it at too. Graphs provide a pictorial view of the pattern of the situation. Let's revisit the mydata data frame. We know there are `r sum(mydata$sex=="Male")` males and their corresponding average age of `r mean(mydata$age[mydata$sex=="Male"], na.rm = T)` and `r sum(mydata$sex=="Female")` females and their corresponding average age of  `r mean(mydata$age[mydata$sex=="Female"], na.rm = T)`. 
+
+We would tell the story differently using graphs. , say, by using barplot() function for a bar graph, ie barplot(c(7,9)). The idea is that we pass a table as an an argument.
+
+```{r}
+par(mfrow = c(2, 2))
+barplot(table.sex)
+barplot(tbl.sex.dept)
+
+hist(mydata$age)
+```
+Practice 3
+
+#Data management/manipulation
+
+## Merging data
+
+Often times in household surveys, interviewers are conducted at household level, and later on at individual level. There now comes an opportunity to learn in greater depth about the individuals, but poses a challenge to connect back the individuals to the household from which they belong. To ease the process of interconnecting these data files, we must have or create a common identifier in both data sets.
+
+Let's assume we have two separate but related data sets. To demonstrate the concept, we will create a small data set so that we easily observe the changes. We will merge this data with our mydata data frame.
+
+```{r}
+#Creating some data
+set.seed(65767)
+id <- sample(1:16, 7, replace = F )
+ed <- factor(sample(1:3,7,replace = T), levels = c(1,2,3), labels = c("none","formal","informal"))
+edu.data <- data.frame(id, ed)
+edu.data
+```
+
+We note that person id number 10 had attended "formal" education, and we know from our mydata that the name of the person with this id is Martha. We would like to join these two data sets together, and so, we use the merge() function. The two data sets must have a number of common variables, of course they don't necessarily to have the same name.
+
+```{r}
+
+merge(mydata,edu.data, by = "id")
+merge(mydata,edu.data, by = "id", all.x = T)
+merge(mydata,edu.data, by = "id", all.y = T)
+merge(mydata,edu.data, by = "id", all = T)
+```
+
+## Section: Sorting/Ordering data. 
+
+Ordering data is another important process in data processing and management. Its not so straightforward but the concept is much more clearer. Say, if ordering a data set in id; what it means is that you are rearranging the positions of rows or cases. 
+
+```{r}
+edu.data$id
+sort(edu.data$id)
+order(edu.data$id)
+```
+
+I will like to take you back to indexing elements in a data frame. When we specify row numbers as in mydata[c(2,6,3),], R returns all columns for row number 2, then 6 and then 3, in that same order. Similarly, we want the order of.................... 
+
+Look closely to the outputs. The order() output tells us that the lowest value is on row number `r order(edu.data$id)[1] `, second on `r order(edu.data$id)[2] ` and so on and so forth.
+
+
+```{r}
+mydata[c(2,6,3),]
+mydata[order(mydata$sex),]              #Sort data by sex
+mydata[order(mydata$sex, mydata$age),]  #Sort data by sex and age
+```
+#Section: More useful functions
+#Section: More about graphs
+#Section: User-defined functions
+
+# Tidyverse function
+
+The tidyverse package actually contains other packages (dplyr, ggplot2, etc.) and you’ll see that when you load the tidyverse package using library(). Remember the package must be installed to your device before it can be loaded into your libraries! For help on installing packages, refer to Section 
+
+```{r}
+library(tidyverse)
+```
+
+# pipes
+
+The pipe operator, (%>%), feeds the results of one operation into the next operation. It is more handy when there is a sequence of operations on a data frame. The advantage of using the pipe operator is that it makes code extremely easy to read.
+
+# mutate, group_by, summarize, filter, select, arrange
+
+
+```{r}
+
+set.seed(356863)
+region <- sample(1:3,1000, prob = c(0.2,0.5,0.3), replace = T)
+distr <- c(sample(1:7,200,replace = T),sample(1:10,504,replace = T),sample(1:15,296,replace = T))
+resid <- c(rep(c(1,2),c(39,161)),rep(c(1,2),c(203,301)),rep(c(1,2),c(75,221)))
+bdywgt <- rnorm(1000,33,9)
+
+#Tibble (a data frame version)
+sample.data <- tibble(region,distr, resid, bdywgt)
+rm(region,distr,resid,bdywgt)
+
+sample.data <- sample.data %>% 
+  mutate(dist_code = region*100+distr)
+
+#Summarize
+sample.data %>% 
+  group_by(region) %>% 
+  summarise(meanwgt = mean(bdywgt), 
+            freqn   = NROW(bdywgt))
+
+```
+
+
+```{r}
+seed <- read.csv("seed.csv")
+str(seed)
+seed[sample(1:nrow(seed),10),]
+
+table(seed$Blocks)
+table(seed$cultivar)
+table(seed$seedchem)
+
+mean(seed$response)
+aggregate(response~Blocks,data=seed, mean)
+
+
+my.aov <- aov(response~Blocks,data=seed)
+summary(my.aov)
+
+#Boxplot
+boxplot(response~Blocks, data=seed)
+
+#ggplot version
+my.blocks.resp <-  ggplot(seed, aes(x = factor(Blocks), y = response)) 
+my.blocks.resp + geom_boxplot()
+my.blocks.resp + geom_boxplot() + coord_flip() + labs(x = "plot blocks", y = "yield", title = "Maize yield over plot blocks")
+```
+
+# Visualization with ggplot2
+
+```{r}
+
+
+```
+
+
+```{r}
+seed <- read.csv("seed.csv")
+str(seed)
+seed[sample(1:nrow(seed),10),]
+
+table(seed$Blocks)
+table(seed$cultivar)
+table(seed$seedchem)
+
+mean(seed$response)
+aggregate(response~Blocks,data=seed, mean)
+
+my.aov <- aov(response~Blocks,data=seed)
+summary(my.aov)
+
+#Graphs
+boxplot(response~Blocks, data=seed)
+
+
+my.blocks.resp <-  ggplot(seed, aes(x = factor(Blocks), y = response)) 
+my.blocks.resp + geom_boxplot()
+my.blocks.resp + geom_boxplot() + coord_flip() + labs(x = "plot blocks", y = "yield", title = "Maize yield over plot blocks")
+```
+
+With ggplot2, data and aesthetic mappings are supplied in ggplot(), then layers are added on with +. This is an important pattern, and as you learn more about ggplot2 you’ll construct increasingly sophisticated plots by adding on more types of components.
+
+Almost every plot maps a variable to x and y, so naming these aesthetics is tedious, so the first two unnamed arguments to aes() will be mapped to x and y. This means that the following code is identical to the example above:
+
+#Applied Inferential Statistics
+
+## Linear regression
+
+```{r}
+salaries <- read.csv("WorkSalaries.csv")
+View(salaries)
+```
+
+```{r}
+mylm.plot <- ggplot(salaries, aes(yrs.service, salary))
+mylm.plot + geom_point()
+```
+
+
+```{r}
+my.lm <- lm(salary~yrs.service, data = salaries)
+summary(my.lm)
+
+ls(my.lm)
+```
+
+```{r}
+mylm.plot +
+  geom_smooth(method = lm, se = F, fullrange = T)
+  
+```
+
+# Programming with User functions
+
+## User functions
+
+## Sampling
+
+During the course of the journey we have used functions which would be more beneficial to sampling of elements from a population. 
+### Simple random sampling
+
+Simple random sampling ensures that every has an equal probability of being selected from the population. There are numerous way we can achieve this, 
+```{r}
+sample(1:100,50)
+
+```
+
+### Systematic random sampling
+### 
+
+## Simulations
+
+
+# Survival Tables
+
+The cohort component projection method projects the population into the future by age (usually 5-year age groups) and sex. Survival rates are used to calculate the number of people that will be alive at a future date in time.
+
+In many countries, life tables are based on an average of age-specific death rates for a 3-year time period, generally around a census taking. In many cases, the life tables are prepared every 10 years. For example, a country or state would collect age-specific death rates for 1999, 2000, and 2001. The census for year 2000 would be used for the base population.
+
+
+
+# Projections
+
+This chapter describes a variant of the cohort component method which can
+be used to make a projection either of the national population or of urban and
+rural populations. The method is capable of projecting the structure of the
+population by age and sex along with various indicators of population size,
+structure and change.
+
+# Mathematical 
+The mathematical  method  is quick, simple, and requires  little in the way of data. It is the approach  of choice for many projections  of the whole populations  of countries.
+
+
+## Cohort
+
+The component  method  is much more cumbersome  than the mathematical  method,  and 
+has heavy data requirements.  It is more time-consuming  than the mathematical  method, 
+although  the advent  of computers  has  made  it a great  deal quicker than it used  to be. It has the great  advantage  over the mathematical  method  that detailed  aspects  of the population structure  can be forecast
+
+The major strength of this technique is its ability to project a
+population in a straightforward and unambiguous manner. The technique does
+not embody restrictive or arbitrary assumptions and generates results which
+faithfully reflect the initial population structure and the fertility,
+mortality and migration conditions specified by the user. It yields
+projection results which are indispensable to any planning exercise seeking to
+take the future population change into account. These features make this
+technique fundamental for integrating population factors into development
+planning.
+
+```{r}
+age_int <- c(0,1,seq(5,95,5))
+nqx <- c(0.02592,0.0042,0.00232,0.00201,0.00443,0.00611,0.00632,0.00654,0.01098,0.01765,0.02765,0.04387,0.05987,0.09654,0.13654,0.18765,0.25439,0.37887,0.47898,0.57908,1)
+lx <- c(100000)
+
+for (i in 2:length(nqx))
+{
+  lx[i] <- round(lx[i-1] - lx[i-1]*nqx[i-1])  
+}
+
+ndx <- round(nqx * lx)
+
+```
+
+Another example
+```{r}
+x   <- c(0,1,seq(5,75,5))
+n   <- c(1,4,rep(5,(length(x)-2)))
+nMx <- c(0.1072,0.0034,0.0010,0.0007,0.0017,0.0030,0.0036,0.0054,0.0054,0.0146,0.0128,0.0269,0.0170,0.0433,0.0371,0.0785,0.0931)
+nkx <- c(0.33,1.56,rep(2.5,length(nMx)-2))
+
+nqx <- round((n*nMx)/(1 + (n - nkx)*nMx),4)
+
+lx <- c(100000)
+for (i in 2:length(nqx))
+{
+  lx[i] <- round(lx[i-1] - lx[i-1]*nqx[i-1]) 
+  #Lx[i] <- (lx[i-1] + lx[i])*2.5
+}
+
+ndx <- round(nqx*lx)
+nLx <- n * lx - ndx*(n - nkx)
+
+Tx <- NA
+
+for (i in 1:length(nqx))
+{
+  Tx[i] <- sum(nLx[i:length(nqx)])
+  #Lx[i] <- (lx[i-1] + lx[i])*2.5
+}
+
+ex <- Tx/lx
+as.data.frame(cbind(x,n,nMx,nkx, nqx,lx,ndx,nLx,Tx,ex))
+
+```
+#SIMILATIONS

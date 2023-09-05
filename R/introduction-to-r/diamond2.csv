@@ -1,0 +1,254 @@
+Timestamp,Surname,First Name,Gender,Nationality/Country of Origin,Which of the following qualifications best describes you?,Institution/Organisation,Email Address ,Do you know how to use functions in R? ,"Do you already use the tidyverse packages in R such as dplyr, tidyr, tibble and ggplot2? ",Do you need to analyse large collections of related time series? ,"Would you like to learn how to use some tidy tools for time series analysis including visualization, decomposition and forecasting? ",Which of the two modes of learning will be suitable for you?
+7/21/2023 19:15:00,Gama Kenneth ,Joseph ,Male,Malawian ,M and E officer ,Lighthouse Trust ,chiyambi.kenneth@gmail.com,Yes,Yes,Yes,Yes,Online
+7/21/2023 19:16:21,Mbewe,Stanley,Male,Malawi,Junior Researcher,Mzuzu University ,stanley.mbewe@gmail.com,No,No,Yes,Yes,Online
+7/21/2023 19:16:53,Chikopa ,Gift,Male,Malawian ,Junior Researcher,University of Malawi ,old-bsc-geo-10-22@unima.ac.mw ,Yes,No,Yes,Yes,Physical
+7/21/2023 19:21:54,Joseph ,Steven ,Male,Malawi ,Undergraduate student ,University of Malawi ,ba-eco-16-19@unima.ac.mw,No,No,No,No,Physical
+7/21/2023 19:22:07,Lisuntha,Hastings ,Male,Malawian,Junior Researcher,Malawi Defense Force,lisuntha12evance@gmail.com,Yes,Yes,Yes,Yes,Online
+7/21/2023 19:23:37,Banda,Gift,Male,Malawi,Junior Researcher,"Ministry of Health, Program Implementation Unit (PIU) ",giftdimension@gmail.com ,Yes,No,Yes,Yes,"Physical, Online"
+7/21/2023 19:26:41,Mthonyiwa,Dickson Demister ,Male,Malawian/Malawi,MSc Student,Green Acre Initiative-GAI,dicksonmthonyiwa@gmail.com,No,No,Yes,Yes,Physical
+7/21/2023 19:28:26,Zuze,Francis Fletcher,Male,Malawian,MSc Student,University of Malawi,fwzuze@gmail.com,No,No,Yes,Yes,Online
+7/21/2023 19:30:19,Zulu ,Osman ,Male,Malawi ,MSc Student,,osmanzulu9@gmail.com,No,No,Yes,Yes,Online
+7/21/2023 19:37:31,KATINICHE ,Bernard ,Male,Malawi ,Junior Researcher,Tech4 Climate Inclunsion ,katinicheben@gmail.com ,No,No,Yes,Yes,"Physical, Online"
+7/21/2023 19:41:03,Manda,Alinafe,Male,Malawian,Junior Researcher,Nacala Logistics ,mandaalinafe@gmail.com,No,No,Yes,Yes,Online
+7/21/2023 19:41:59,Kamwendo,David ,Male,Malawi,Junior Researcher,Malawi university of science and technology,drm-017-18@must.ac.mw,Yes,No,Yes,Yes,Online
+7/21/2023 19:43:06,Mwanza,Isaac ,Male,Malawian ,Student ,Unima,bed-che-26-20@unima.ac.mw,No,No,Yes,Yes,Online
+7/21/2023 19:44:59,Chiwaula ,Williams ,Male,Malawi ,Junior Researcher,UNIVERSITY OF MALAWI ,bth-12-19@unima.ac.mw,No,No,Yes,Yes,Online
+7/21/2023 19:49:56,Munthali,Boswell,Male,Malawi,MSc Student,University of Malawi(school) IDinsight(Work),boswellmunthali2@gmail.com,Yes,Yes,Yes,Yes,Physical
+7/21/2023 19:54:48,Lughano ,Ngosi ,Male,Malawian ,Junior Researcher,Mzuzu University ,ngosilughano7@gmail.com ,Yes,Yes,Yes,Yes,Physical
+7/21/2023 20:07:56,Mndolo,Orphan,Male,Malawi,Senior Researcher,Bill consulting,orphandolo@gmail.com,No,No,Yes,Yes,Online
+7/21/2023 20:08:38,Chipaye ,Lovemore ,Male,Malawi ,Junior Researcher,MACOHA ,lovemorechipaye.14@gmail.com,No,No,Yes,Yes,Online
+7/21/2023 20:09:52,Newa,Hazel,Female,Malawian,MSc Student,"University of Malawi, Chanco",tiznewa@gmail.com ,Yes,No,Yes,Yes,Online
+7/21/2023 20:11:39,Dallion ,Raphael ,Male,Malawian/Malawi ,Junior Researcher,Youth Net and Counselling Organization ,raphaeldallion54@gmail.com ,No,No,Yes,Yes,Online
+7/21/2023 20:12:19,Moyo Phiri ,Jenala,Female,Malawian,MSc Student,Malamulo secondary school,moyojenala@gmail.com,No,No,Yes,Yes,Physical
+7/21/2023 20:12:51,Mwenda ,Mygo,Male,Malawian,Junior Researcher,Pamodzi Consulting Limited ,mwendamygo@gmail.com,No,No,Yes,Yes,Online
+7/21/2023 20:12:55,Banda,Richard ,Male,Malawi,Junior Researcher,,richardbandah16@gmail.com,Yes,No,Yes,Yes,Online
+7/21/2023 20:17:43,Ngulinga ,Happy ,Male,Malawian ,Student ,Robert Blake school ,Ngulingerhappy@gemail.com ,Yes,Yes,Yes,Yes,Online
+7/21/2023 20:19:21,Silungwe ,Niza,Male,Malawian ,MSc Student,,silungweniza@gmail.com,No,No,Yes,Yes,Online
+7/21/2023 20:20:20,Lapson ,Gift ,Male,Malawi ,Junior Researcher,,giftlapson609@gmail.com ,Yes,No,Yes,Yes,Online
+7/21/2023 20:21:22,Chilambula,Alfred,Male,Malawian,Junior Researcher,,alfredrichmanchilambula@gmail.com,No,No,Yes,Yes,Online
+7/21/2023 20:22:50,Gadenala,Esau,Male,Malawian,Junior Researcher,DCCMS,esaugadenala@gmail.com,No,No,Yes,Yes,"Physical, Online"
+7/21/2023 20:24:05,Kamthunzi ,Maggie ,Female,Malawi ,Planner,Ministry of Education,maggiekrashid@gmail.com,Yes,No,Yes,Yes,Online
+7/21/2023 20:36:52,Milanzie ,Samuel ,Male,Malawi ,MSc Student,University of Malawi ,sammilanzie@gmail.com,Yes,Yes,Yes,Yes,Online
+7/21/2023 20:44:06,Chisomo ,Chikowi,Male,Malawian,Junior Researcher,LUANAR,Cjchikowi@outlook.com ,No,No,Yes,Yes,"Physical, Online"
+7/21/2023 20:50:34,Namikalo,Peace,Female,Malawian ,Bachelor's degree student ,University of Malawi ,pnamikalo@gmail.com ,Yes,Yes,Yes,Yes,Physical
+7/21/2023 20:53:19,Mapeto ,Ridson ,Male,Malawi,Bsc in irrigation engineering ,LUANAR - Bunda campus ,ridsonmapeto1@gmail.com,Yes,No,Yes,Yes,Online
+7/21/2023 21:02:22,Supedi,Henry,Male,Malawian ,Undergraduate ,University of Malawi ,Bsc-act-hon-19-20@unima.ac.mw,No,No,Yes,Yes,Physical
+7/21/2023 21:07:04,Chikunkhuzeni ,Alexa,Female,Malawian,Junior Researcher,Zomba District Forestry Office ,chikunkhuzenialexandra94@gmail.com ,No,Yes,No,Yes,Physical
+7/21/2023 21:34:57,Twabi,Halima,Female,Malawi,Junior Researcher,University of Malawi,htwabi@unima.ac.mw,Yes,Yes,Yes,Yes,Online
+7/21/2023 21:35:06,Gondwe,Ellen,Female,Malawian,Junior Researcher,University of Malawi,ellengondwe@gmail.com,Yes,No,Yes,Yes,Physical
+7/21/2023 21:39:32,Mwanandiye,Eric,Male,Malawi,PhD Student,University of Malawi,emwanandiye@unima.ac.mw,No,No,Yes,Yes,Physical
+7/21/2023 21:48:23,Nyirongo,Dunamis Dummisan,Male,Malawian,BSc student,University of Malawi,dummisannyirongo4@gmail.com,No,No,Yes,Yes,Online
+7/21/2023 21:49:39,Nyirongo,Dunamis Dummisan,Male,MALAWIAN,BSc Student,UNIVERSITY OF MALAWI,dummisannyirongo4@gmail.com,No,No,Yes,Yes,Online
+7/21/2023 21:50:25,Mgalamadzi ,Daniel ,Male,Country ,Junior Researcher,Dzuka Africa,danielmgalamadzi@gmail.com,No,No,Yes,Yes,Online
+7/21/2023 21:50:33,CHAMERA,FRANCISCO,Male,Malawian,PhD Student,MUBAS,fchamera@gmail.com,No,No,Yes,Yes,Online
+7/21/2023 22:02:29,Gausi ,Talumba Rabecca ,Female,Malawian,Diploma in Secondary education Mathematics and computer studies ,Ministry of Energy ,rabecca.gausi@cunima.ac.mw ,No,No,Yes,Yes,Online
+7/21/2023 22:03:13,Manyozo,Mike,Male,Malawi,Junior Researcher,Millennium University,mmanyozo7@gmail.com,No,No,Yes,Yes,Online
+7/21/2023 22:15:33,Beyamu,Donnex,Male,Malawi,Junior Researcher,University of Malawi,djbeyamu@gmail.com,Yes,Yes,Yes,Yes,Physical
+7/21/2023 22:17:17,Muhekiwa ,Caroline,Female,Malawi ,Senior Researcher,,Cmuhekiwa@gmail.com ,No,No,Yes,Yes,Physical
+7/21/2023 22:47:40,Kalinde,Cornelius,Male,Malawian,MSc Student,Mzuzu University,corneliuskalinde@gmail.com,Yes,Yes,Yes,Yes,Online
+7/21/2023 23:09:21,Sani,Nelson,Male,Malawian,Senior Researcher,MBS,nelsonmalanisani@gmail.com,No,No,Yes,Yes,"Physical, Online"
+7/21/2023 23:15:03,CHIKADZA,HARRISON,Male,Malawi,Data Science BSc Student,Mzuzu University,bscds0320@my.mzuni.ac.mw,No,No,Yes,Yes,Physical
+7/21/2023 23:48:19,Musili,William,Male,Kenya,PhD Student,University of Cape Town,musiliwilliam@gmail.com,No,No,Yes,Yes,Online
+7/21/2023 23:48:32,NANSONGOLE,GANIZANI,Male,Malawi,Senior Researcher,Baylor college of medicine Malawi ,ganhnansongole@gmail.com,Yes,No,Yes,Yes,"Physical, Online"
+7/22/2023 4:53:02,Malunda,Atupele,Male,Malawian,undergraduate(Bachelor of science in computer science),DMI st. john the baptist university,atupelemalunda@gmail.com,Yes,Yes,Yes,Yes,Online
+7/22/2023 5:23:16,Teleka ,Jane ,Female,Malawi ,Junior Researcher,University of Malawi ,odl-dip-sta-524-20@unima.ac.mw ,No,No,No,Yes,Online
+7/22/2023 5:40:36,Pawa,Lucious ,Male,Malawian ,MSc Student,Economics Association of Malawia,luciouspawa@gmail.com ,Yes,Yes,Yes,Yes,Online
+7/22/2023 6:18:01,Tembo,Chawezi ,Male,Malawian ,Junior Researcher,Malawi Red Cross Society,Chawezitembo.CT@gmail.com,No,No,Yes,Yes,Online
+7/22/2023 6:18:33,Ntadzakulima ,Peter ,Male,Malawi ,MSc Student,St. Louis ,peterntadzakulima@gmail.com,No,No,Yes,Yes,Online
+7/22/2023 6:22:11,Mtirah,Alexander,Male,Malawi,Junior Researcher,UNIMA,mtirahalexander@gmail.com,No,No,Yes,Yes,Physical
+7/22/2023 6:30:30,Mtalika,Hajira,Female,Malawi,Junior Researcher,UNIMA,mtalikahajira@gmail.com,No,No,No,Yes,Physical
+7/22/2023 6:49:05,Maunda ,Racheal ,Female,Malawi ,MSCE,One Acre Fund,wilsonepicmathyola@gmail.com,No,No,Yes,Yes,Online
+7/22/2023 6:50:45,Mathyola ,Wilson ,Male,Malawi ,Junior Researcher,Ministry of health ,wilsonepicmathyola@gmail.com,No,No,Yes,Yes,Online
+7/22/2023 7:03:48,Makamo ,Victoria ,Female,Malawian ,Junior Researcher,University of Malawi ,Makamovictoria19@gmail.com ,No,No,Yes,Yes,Online
+7/22/2023 7:07:44,Phiri ,Danstan ,Male,Malawi ,MSc Student,Mzuni,phyokaphiri@gmail.com,No,No,Yes,Yes,Online
+7/22/2023 7:17:24,Mulinde ,Emma,Female,Malawi,MSc Student,NA,mulindeemma@gmail.com ,No,No,Yes,Yes,Online
+7/22/2023 7:23:28,Chakamba,Innocent,Male,Malawi,Of MSCE,Namwera community day secondary school,Chakambainnocent@gmail.com,No,No,No,Yes,"Physical, Online"
+7/22/2023 7:27:46,Sichali,Chikondi,Female,Malawi,Senior Researcher,,sichalichikondi08@gmail.com,No,No,Yes,Yes,Online
+7/22/2023 7:34:37,Champiti ,Happy ,Male,Malawi ,Diploma in agriculture. Currently studying agriculture extension at LUANAR ,Ministry of agriculture ,champitihappy2021@gmail.com ,No,No,Yes,Yes,Online
+7/22/2023 7:36:44,Missi,Yamikani ,Male,Malawi ,MSc Student,,missiyamikani1597@gmail.com,No,No,Yes,Yes,Online
+7/22/2023 7:39:06,Mathiya,Gerald,Male,Malawi ,Junior Researcher,University of Malawi ,gmathiya@unima.ac.mw,Yes,No,Yes,Yes,Physical
+7/22/2023 7:40:31,SIMANGO,JEAN,Female,MALAWIAN,Junior Researcher,Individual,Simangojj1@gmail.com,No,No,Yes,Yes,Online
+7/22/2023 7:43:12,Chirwa ,Praise ,Female,Malawian ,Undergrad (4th year student ),University of malawi,chirwapraise6@gmail.com,No,No,No,Yes,Physical
+7/22/2023 7:55:07,Kaunda ,Andrew,Male,Malawian ,Degree student ,National college of information technology NACIT ,andrewkaunda263@gmail.com,No,No,Yes,Yes,Online
+7/22/2023 7:56:36,MBILIMA,POWEL,Male,MALAWIAN,Junior Researcher,MINISTRY OF AGRICULTURE,powellmbilima@gmail.com,No,No,Yes,Yes,Physical
+7/22/2023 8:06:34,SAMBO,JAMESTON,Male,MALAWI,Junior Researcher,MINISTRY OF EDUCATION,sambojameston@gmail.com,Yes,No,Yes,Yes,Online
+7/22/2023 8:19:46,Chaweka,Brian,Male,Malawi,Junior Researcher,,chawekabrian@gmail.com,No,No,Yes,Yes,Online
+7/22/2023 8:21:29,Kamangira ,Enock,Male,Malawi ,Technical college certificate in refrigeration systems ,Soche technical college ,ennockkamangira93@gmail.com ,No,No,Yes,Yes,Physical
+7/22/2023 8:25:44,Banda,FAITH,Female,Malawi,Development economics student ,Luanar ,faithashings@gmail.com,No,No,Yes,Yes,Online
+7/22/2023 8:51:09,Mthindi ,Yankho,Female,Malawi ,Junior Researcher,H2O Drilling Engineering and Mineral Consult ,mthindiy@gmail.com,No,Yes,Yes,Yes,Physical
+7/22/2023 8:52:25,Matupah,Namakhwa ,Male,Malawi,Junior Researcher,Statsons research consultancy ,namakhwamatupah@gmail.com,No,No,Yes,Yes,Online
+7/22/2023 9:09:56,Makhongwe,Mtachi,Male,Malawi ,Junior analyst ,African Parks Majete,mtachim@africanparks.org,No,No,Yes,Yes,Online
+7/22/2023 9:23:10,Chukwudi,Uchechukwu,Male,Nigeria ,PostDoc Student,University of Nigeria,upchukwudi@gmail.com,No,No,Yes,Yes,Online
+7/22/2023 9:28:44,Chavula ,Thokozire ,Female,Malawi,Junior Researcher,,tknita30@gmail.com,Yes,No,Yes,Yes,Online
+7/22/2023 10:10:38,Kutsanda,Katimosi ,Male,Malawian ,MSc Student,Lilongwe university of Agriculture and Natural Resources,katimosikutsanda@gmail.com,Yes,Yes,Yes,Yes,"Physical, Online"
+7/22/2023 10:12:13,Gondwe,Standwell ,Male,Malawi,First degree graduand ,Lilongwe University of Agriculture and Natural Resources- Bunda ,Standwellmlowoka4@gmail.com ,No,No,Yes,Yes,Online
+7/22/2023 10:17:11,Kenamu,Blessings,Male,Malawi,MSc Student,University of Malawi,bkenamu@gmail.com,No,No,Yes,Yes,Physical
+7/22/2023 10:18:20,Kalekeni,Rodrick,Male,Malawi,MSc Student,Lilongwe University of Agriculture and Natural Resources,nikeleka@gmail.com,Yes,Yes,Yes,Yes,Online
+7/22/2023 10:47:24,Daudi ,Marriam ,Female,Malawi ,Bachelors holder Animal Science ,Self Employed ,marriamdaud3@gmail.com,No,No,Yes,Yes,"Physical, Online"
+7/22/2023 10:47:34,Nyambalo ,Alfred Nthawi ,Male,Malawi ,Just finished my BSc,Lilongwe University of Agriculture and Natural resources ,alfrednthawinyambalo@gmail.com,No,No,Yes,Yes,Physical
+7/22/2023 10:50:20,Kika,Memory,Female,Malawian,Undergrad student,UNIMA,memorykika@gmail.com,No,No,Yes,Yes,Physical
+7/22/2023 10:55:48,Khundi-Mkomba ,Fydess,Female,Malawian ,PhD Student,"ACE-ESD, university of Rwanda ",fmkomba@gmail.com,Yes,No,Yes,Yes,Online
+7/22/2023 11:18:40,Chizu,Chikondi,Male,Malawi,MSc Student,PAUWES ,chizuhchikondi@gmail.com,Yes,No,Yes,Yes,Online
+7/22/2023 11:21:08,Kimati,Luciana,Female,Tanzania,MSc Student,University of Dar es salaam,luciekimati@gmail.com,Yes,Yes,Yes,Yes,"Physical, Online"
+7/22/2023 11:36:10,Nyasulu ,Chimango ,Male,Malawi ,PhD Student,Mzuzu University ,nyasulu.c@mzuni.ac.mw ,No,No,Yes,Yes,Online
+7/22/2023 12:01:20,Mvula,Happy Stafford,Male,Malawi,MSc Student,LUANAR,happymvula@gmail.com,Yes,No,Yes,Yes,Online
+7/22/2023 12:03:20,Kautale ,Innocent ,Male,Malawian ,Undergraduate student,University of Malawi ,Innocentsostenkautale@gmail.com ,No,No,Yes,Yes,"Physical, Online"
+7/22/2023 12:21:31,Banda,Autex,Male,Malawi,Junior Researcher,University of Malawi,bsc-fn-08-18@unima.ac.mw,No,No,Yes,Yes,"Physical, Online"
+7/22/2023 12:29:23,Clemence ,Tambala,Male,Malawi,Project practitioner ,Centre for achild Development and Research ,cmtambala4@gmail.com,No,No,Yes,Yes,Online
+7/22/2023 12:29:49,Nachiye ,Emmanuel ,Male,Malawi,MSc Student,Lilongwe university of Agriculture and Natural Resources-Bunda ,enachiye@gmail.com,Yes,Yes,Yes,Yes,Online
+7/22/2023 12:34:05,Okenmuo,Frank ,Male,Nigeria ,Junior Researcher,"Chukwuemeka Odumegwu Ojukwu University, Igbariam",fc.okenmuo@coou.edu.ng,Yes,Yes,Yes,Yes,"Physical, Online"
+7/22/2023 12:35:52,Phiri,Joel,Male,Malawian,PhD Student,Lilongwe University of Agriculture and Natural Resources,jwphiri@gmail.com,No,No,Yes,Yes,Physical
+7/22/2023 12:38:49,Mwangonde ,Catherine ,Female,Malawi ,Junior Researcher,University of malawi ,cathmwangonde10@gmail.com,No,No,Yes,Yes,Physical
+7/22/2023 12:39:44,Pulaizi,Upile,Female,Malawi,PhD Student,LUANAR,upiepulaizi92@gmail.com,No,No,Yes,Yes,Online
+7/22/2023 12:40:03,Kawaghe,Francis,Male,Malawian,Bsc in statistics student,University of Malawi,kawayefrancis@gmail.com,Yes,Yes,Yes,Yes,Online
+7/22/2023 12:40:21,Chimoyo,Mirriam,Female,Malawi,Degree student,,mirriechimoyo@gmail.com,Yes,Yes,Yes,Yes,Online
+7/22/2023 12:46:56,Ndovi,Tughulupi,Female,Malawi,Junior Researcher,Ministry of Agriculture,tughulupi@gmail.com,No,No,Yes,Yes,Physical
+7/22/2023 12:46:59,Juma,Shaibu Ali,Male,Malawi,PhD Student,University of Dar es Salaam,shaibu900@gmail.com,No,No,Yes,Yes,Online
+7/22/2023 12:47:28,Bwanamali ,Joseph ,Male,Malawian ,MSc Student,LUANAR ,josephbwanamali@gmail.com,Yes,Yes,Yes,Yes,Physical
+7/22/2023 13:00:38,Bengo,Precious ,Male,Malawi,Junior Researcher,,preciousabengo@gmail.com ,Yes,Yes,Yes,Yes,Online
+7/22/2023 13:05:50,Matiki,Hannock,Male,Malawian,Junior Researcher,Department of agriculture extension,Hangmatikievang@gmail.com,No,No,Yes,Yes,Physical
+7/22/2023 13:07:19,Chimombo ,Anderson ,Male,Malawian,Undergraduate Student ,University of Malawi ,andersonchimombok@gmail.com,Yes,No,Yes,Yes,Online
+7/22/2023 13:22:10,Mahanjane,Agostinho Júnior ,Male,Mozambique ,PhD Student,Lilongwe University of Agriculture and Natural Resources ,agostinho.mahanjane@ispg.ac.mz ,Yes,Yes,Yes,Yes,Online
+7/22/2023 13:45:12,Gadamika,Miracle,Male,Malawian,Senior Researcher,Training and research Unit of excellence (TRUE),miragadamika@gmail.com,Yes,Yes,Yes,Yes,Physical
+7/22/2023 13:45:50,Tembo,Shadreck,Male,Malawian,Project Officer,Theatre for a Change,shadreally@gmail.com,No,No,Yes,Yes,Online
+7/22/2023 13:48:13,Mulangali ,Victor ,Male,Malawian ,Junior Researcher,University of Malawi ,bsc-sta-08-19@unima.mw ,Yes,Yes,Yes,Yes,Online
+7/22/2023 13:57:34,Jossam ,Chrispin ,Male,Malawi ,Undergraduate student ,University of Malawi ,"P. O Box 280, zomba",No,No,No,Yes,Online
+7/22/2023 14:45:30,Kayuni,Leonard ,Male,Malawi ,Bs Student,University of Malawi ,leonardkayuni03@gmail.com,No,No,Yes,Yes,Physical
+7/22/2023 14:48:26,Munthali,Nothandazo Mercy,Female,Malawi,Junior Researcher,Invest in Knowledge Limited,mercybmunthali@gmail.com,No,No,Yes,Yes,Physical
+7/22/2023 14:50:01,Mwale,Raphael,Male,Malawian,Junior Researcher,Malawi Gvt,ralphdev8@gmail.com,Yes,Yes,Yes,Yes,Online
+7/22/2023 14:52:03,Alebachew,Getachew,Male,Ethiopian,PhD Student,Lilongwe University of Agriculture and Natural Resources,getaworkalebie@gmail.com,Yes,Yes,Yes,Yes,Online
+7/22/2023 15:00:02,Nsi,Henry Chinonso ,Male,Nigeria ,Senior Researcher,Organization ,hh1384921@gmail.com,Yes,Yes,Yes,Yes,Online
+7/22/2023 15:00:21,Botha,Angela,Female,Malawian,Junior Researcher,Total Landcare,angelabotha9@gmail.com,No,No,Yes,Yes,Online
+7/22/2023 15:00:58,Kariuki,Lucy,Female,Kenya,PostDoc Student,Dedan kimathi University of technology,Lukariuki@gmail.com,Yes,No,Yes,Yes,Online
+7/22/2023 15:02:31,Gwesere ,Paul ,Male,Malawian,Junior Researcher,University of Malawi ,gweserepaul2@gmail.com,Yes,No,Yes,Yes,Online
+7/22/2023 15:06:49,Kanjira Banda,Emmanuel,Male,Malawi,Junior Researcher,UNIMA,Kanjiraemmanuel45@gmail.com ,No,No,Yes,Yes,Online
+7/22/2023 15:06:53,Thomson ,Fred ,Male,Malawi ,Junior Researcher,MUBAS ,fredthomson2@gmail.com ,No,No,Yes,Yes,Online
+7/22/2023 15:23:21,Chindimba,Isaac,Male,Malawi,MSc Student,Kafita christian secondary school,ichindimba99@gmail.com,No,Yes,Yes,Yes,Physical
+7/22/2023 15:28:20,Kaning'a,Deborah,Female,Malawi,Junior Researcher,UNIMA,bah-27-19@unima.ac.mw,No,No,Yes,Yes,Online
+7/22/2023 15:37:52,Malikha,Ruthie Chisomo ,Female,Malawian ,MSc Student,University of Malawi ,malikharuthie1@gmail.com,No,No,Yes,Yes,"Physical, Online"
+7/22/2023 15:47:27,Gondwe,Joel,Male,Malawi,Data Manager for a resilient food and nutrition security project,CARE International in Malawi,joegondwe63@gmail.com,Yes,Yes,Yes,Yes,Online
+7/22/2023 16:28:46,Gondwe,Luckson Solicitor Maurice,Male,Malawi,MSc Student,Lilongwe University of Agriculture and Natural Resources,lucksonmzuni@gmail.com,Yes,Yes,Yes,Yes,Online
+7/22/2023 16:35:24,Ziba chinthu,Noel ,Male,Malawian ,Undergraduate arts economics ,University of Malawi ,noelnokusechinthu@gmail.com,No,No,Yes,Yes,"Physical, Online"
+7/22/2023 16:47:12,Letala,Prisca,Female,Malawi,Junior Researcher,University of malawi ,Priscalettala@gmail.com ,No,No,Yes,Yes,Physical
+7/22/2023 17:13:19,Kamungo ,Patience ,Female,Malawian ,Junior Researcher,University of Malawi ,ba-eco-26-18@unima.ac.mw,Yes,Yes,Yes,Yes,"Physical, Online"
+7/22/2023 17:28:28,Kamwera ,Anyitike John ,Male,Malawi ,Undergraduate ,University of Malawi ,johnkamwerah@gmail.com,No,No,Yes,Yes,Physical
+7/22/2023 17:35:17,Chikosa,Kumbukani ,Male,Malawian ,Degree Holder,University of Malawi,kumbukanchikosa@gmail.com,No,No,Yes,Yes,Physical
+7/22/2023 17:38:19,Malunga,Israel,Male,Malawi,Degree holder ,UNIMA,imalunga99@gmail.com ,No,No,Yes,Yes,Physical
+7/22/2023 17:42:43,mwape,thomas,Male,zambian/zambia,MSc Student,Lilongwe University of Agriculture and Natural resources,thomas.mwape@yahoo.com,Yes,Yes,Yes,Yes,Online
+7/22/2023 17:44:31,Phiri,Mary,Female,Malawi,Bachelor’s student ,Lilongwe University of Agriculture and Natural Resources ,marykphiri11@gmail.com,No,No,Yes,Yes,Physical
+7/22/2023 17:48:33,Nkhata,Chimwemwe ,Male,Malawian ,Junior Researcher,UNIMA ,bsc-inf-14-19@unima.ac.mw,Yes,No,No,Yes,Online
+7/22/2023 18:02:59,Mulonda ,Mercy ,Female,Malawian ,Junior Researcher,University of Malawi ,mercymulonda82@gmail.com,No,No,No,Yes,Online
+7/22/2023 18:05:27,Cheyo,Vanessa ,Female,Malawi ,Junior Researcher,University of Malawi ,Vanessacheyo6@gmail.com ,No,No,Yes,Yes,Online
+7/22/2023 18:31:05,Sapao,Stanley ,Male,Malawi,Undergraduate Student,University of Malawi,bsc-59-15@unima.ac.mw,Yes,Yes,Yes,Yes,Online
+7/22/2023 20:35:10,Banda,Wiseman,Male,Malawian,Junior Researcher,Ministry of Health Ntchisi DHO,wisemanlesterbanda@gmail.com,No,No,Yes,Yes,Online
+7/22/2023 21:23:41,Pensulo,Maria,Female,Malawian,Bachelor student,University of Malawi,bsc-63-20@unima.ac.mw,No,No,Yes,Yes,Online
+7/22/2023 22:16:23,Deza,Aumer,Male,Malawi,Junior Researcher,Mzuzu University ,aumerdeza123@gmail.com ,No,No,Yes,Yes,Physical
+7/23/2023 6:42:16,M'mame ,Dannie,Male,Malawian,Junior Researcher,University of Malawi ,danniemmame@gmail.com,No,No,Yes,Yes,Online
+7/23/2023 8:57:00,Ntolanthenga,Fredrick,Male,Malawian,Diploma in Statistics student,UNIMA,odl-dip-sta-411-20@unima.ac.mw,No,No,Yes,Yes,Online
+7/23/2023 10:09:43,Mtonga,Wezzie Grace,Female,Malawi,Bsc graduate,,wezigracemtonga@gmail.com,No,No,No,Yes,Online
+7/23/2023 10:39:03,Chirambo ,Blessings,Male,Malawi,MSc Student,Mzuzu university ,chiramboblessingsmuziza@gmail.com,Yes,Yes,Yes,Yes,Online
+7/23/2023 12:50:23,MATIYA,LAUREEN,Female,MALAWIAN,UNDERGRADUATE,UNIMA,laureenmatiya@gmail.com,No,No,Yes,Yes,Physical
+7/23/2023 16:03:49,Werikhe ,Grace ,Male,Kenya ,PhD Student,Food Security center UoN ,werikhe8@gmail.com,Yes,No,Yes,Yes,Online
+7/23/2023 16:30:15,Mayere,Kenford,Male,Malawian,MSc Student,"University of the Witwatersrand, Johannesburg",mayerekenford@gmail.com,No,No,Yes,Yes,Online
+7/23/2023 17:19:46,Phillimon ,Stainslaus ,Male,Malawi ,Junior Researcher,DMI St John the Baptist University Mangochi ,Stanslausphillimon@gmail.com ,No,No,Yes,Yes,Online
+7/23/2023 17:30:00,Matekenya,John,Male,Malawi,Junior Researcher,Apalis,johnmatekenya@gmail.com,No,No,Yes,Yes,Online
+7/23/2023 17:50:18,Malata,Mark,Male,Malawi,Junior Researcher,Lilongwe University of Agriculture and Natural Resources ,mmalata@luanar.ac.mw,Yes,Yes,Yes,Yes,"Physical, Online"
+7/23/2023 17:58:03,Kamuloni,Misheck,Male,Malawian,Senior Researcher,Infocus Technologies,kamulonim@gmail.com,No,No,Yes,Yes,Online
+7/23/2023 17:58:59,Kaweche,Brenda,Female,malawian,Junior Researcher,Overwhelming traders,brekaweche@outlook.com,No,No,No,Yes,Online
+7/23/2023 18:04:44,Luhanga ,Lawrence ,Male,Malawi ,Senior Researcher,DMI St John the Baptist University - Mangochi ,dr.luhanga@gmail.com ,No,No,No,Yes,Online
+7/23/2023 19:54:17,Sebastian,Ernest,Male,Malawi,Junior Researcher,Sygen,ernestsebah@gmail.com,Yes,Yes,Yes,Yes,Online
+7/23/2023 21:10:30,Lwesha,INNOCENT,Male,Malawi,MSc Student,LILONGWE UNIVERSITY OF AGRICULTURE AND NATURAL RESOUIRCES,lweshachikko@gmail.com,No,No,Yes,Yes,Physical
+7/23/2023 21:16:21,Situma ,Silvia ,Female,Kenya,PhD Student,Washington State University ,silvia.situma@wsu.edu,Yes,Yes,Yes,Yes,Physical
+7/23/2023 21:17:34,Ezra,Richard ,Male,Malawian ,Junior Researcher,,richard2ezra@gmail.com ,No,No,Yes,Yes,Online
+7/23/2023 21:31:33,Chimaliro ,Vincent ,Male,Malawi ,Senior Researcher,,vchimaliro1@gmail.com ,Yes,No,Yes,Yes,Online
+7/23/2023 21:50:28,Kaliwo ,Yamikani ,Male,Malawian,MSc Student,LUANAR ,ykaliwo@gmail.com,Yes,Yes,Yes,Yes,Online
+7/23/2023 23:16:35,Chitsulo,Stuart ,Male,Malawian,Monitoring and Evaluation Intern ,Yamba Malawi,stuartchitsu@gmail.com,Yes,Yes,Yes,Yes,Online
+7/24/2023 6:37:32,Nakhwala ,Lyson,Male,Malawi ,PhD Student,LUANAR ,lysonnakhwala@gmail.com ,Yes,Yes,Yes,Yes,Physical
+7/24/2023 8:37:18,Kaleso,Anthony ,Male,Malawi,MSc Student,,janthonykaleso@gmail.com,Yes,Yes,Yes,Yes,Online
+7/24/2023 9:01:09,Mwenechanya ,Happy,Male,Malawian ,Planning Officer,Ministry of Transport and Public Works ,hmwenechanya@gmail.com,No,No,Yes,Yes,Online
+7/24/2023 9:05:20,Ngalande ,Maxwell ,Male,Malawian ,Junior Researcher,Gp ,Ngalande40@gmail.com ,No,No,Yes,Yes,Online
+7/24/2023 10:28:28,NKHOMA,"EDGAR, CHAMBUKENI ",Male,Malawian,Junior Researcher,LUANAR ,edgarchambukeni@gmail.com ,No,No,Yes,Yes,Online
+7/24/2023 12:59:06,Mgwede,Charles Watchipa,Male,Malawian,PhD Student,LUANAR,cwatchipa@gmail.com,Yes,No,Yes,Yes,Online
+7/24/2023 14:12:42,Chimphambano,Oris,Male,Malawi,Final Year Bachelor of Arts (Humanities) student,University of Malawi,orischimphambano@gmail.com,No,No,No,Yes,Online
+7/24/2023 15:20:19,Banda,David,Male,Malawian,Employee,Dzuka Africa Organisation,daviebanda002@gmail.com,Yes,Yes,Yes,Yes,Online
+7/24/2023 15:20:35,Chikabvumbwa,Sylvester Richard,Male,Malawian,Junior Researcher,Catholic University of Malawi,sylvechika@gmail.com,Yes,Yes,Yes,Yes,Physical
+7/24/2023 15:36:26,Kolali ,Laban,Male,Malawian ,Junior Researcher,LUANAR,kolalilaban1@gmail.com,Yes,No,Yes,Yes,Online
+7/24/2023 15:53:02,Kadango ,Patrick ,Male,Malawian ,Undergraduate ,University of Malawi ,bsoc-08-18@unima.ac.mw,No,No,Yes,Yes,Physical
+7/24/2023 15:58:36,Banda,Harold,Male,Malawian ,Junior Researcher,The Catholic University of Malawi ,hbanda@cunima.ac.mw ,Yes,No,Yes,Yes,Online
+7/24/2023 16:24:42,Chafulumira, Madalitso,Female,Malawi,MSc Student,FAO,mchafulumira98@gmail.com,Yes,Yes,Yes,Yes,Online
+7/24/2023 17:11:00,Patrick,Nansongole,Male,Malawian,Junior Researcher,,patricknansongole@gmail.com,No,No,Yes,Yes,Online
+7/24/2023 20:25:34,Mbizi,Watson,Male,Malawi,MSc Student,LUANAR and Government of Malawi,mbiziwatson@gmail.com,Yes,Yes,Yes,Yes,Physical
+7/24/2023 21:36:53,Luka,Innocent,Male,Malawi,Junior Researcher,University of Malawi,ba-eco-02-19@unima.ac.mw,Yes,No,Yes,Yes,Physical
+7/25/2023 4:22:15,Bango,Antafu,Male,Malawian ,Diploma graduate ,Luanar ,bangoantafu@gmail.com ,No,No,Yes,Yes,Physical
+7/25/2023 10:03:20,Kamwadi,Fraiser,Male,Malawi,Diploma in community development,Needed Action for Community Care and Development,Zestbandah@gmail.com,No,No,Yes,Yes,Physical
+7/25/2023 10:37:33,Mokiwa,Ernest,Male,Malawi,MSc Student,Malawi School Of Government,ryanmokiwa@gmail.com,No,No,Yes,Yes,Online
+7/25/2023 12:17:17,Katchomoza,McDonald,Male,Malawi,Senior Researcher,The Work,katchomoza265@gmail.com,Yes,Yes,Yes,Yes,Online
+7/25/2023 12:25:52,Mbekeani,Dumisani,Male,Malawian,MSc Student,University of Malawi,dmbekeani@yahoo.com,No,No,Yes,Yes,Online
+7/25/2023 13:29:37,KAMTENGENI ,ARTHUR ,Male,MALAWIAN ,Undergraduate Student ,LUANAR ,arthurkamtengeni7@gmail.com,No,No,Yes,Yes,Online
+7/25/2023 17:31:34,Kaponda,Tayanjana Kaponda,Male,Malawi,Junior Researcher,Malawi Adventist University,tayanjanakaponda@gmail.com,No,No,Yes,Yes,Online
+7/25/2023 17:36:19,Mollen,Sinthani ,Male,Malawian,Junior Researcher,LUANAR ,sinthanimollen56@gmail.com,Yes,No,Yes,Yes,Online
+7/25/2023 19:27:54,JETERO,NEYASI,Male,Malawi,Junior Researcher,University of Malawi,bsc-sta-24-20@unima.ac.mw,No,No,Yes,Yes,Online
+7/25/2023 19:40:55,Kondowe,Fiskani,Female,Malawi,PhD Student,University of Malawi,fiskanijk@gmail.com,Yes,Yes,Yes,Yes,Online
+7/25/2023 20:23:24,Chalamanda ,Joseph ,Male,Malawi ,Msc holder,Thunga CDSS,Chalamandajoseph1@gmail.com ,No,No,Yes,Yes,Online
+7/25/2023 21:04:52,MLONGOTI,HELIX EDWARD,Male,MALAWI,Junior Researcher,"MINISTRY OF EDUCATION, SCIENCE AND TECHNOLOGY",helixmlongoti02@gmail.com,No,No,Yes,Yes,Online
+7/25/2023 21:29:30,Kaliwo ,Yamikani ,Male,Malawi ,MSc Student,Lilongwe University of Agriculture and Natural Resources ,pkaliwo2@gmail.com,Yes,Yes,Yes,Yes,Physical
+7/25/2023 22:42:32,Mphepo ,Mphatso ,Male,Malawian ,Junior Researcher,University of Malawi ,"P. O Box280, Zomba",No,No,Yes,Yes,Online
+7/26/2023 0:56:44,Panyani ,Emmanuel ,Male,Malawi ,Junior Researcher,GIM microfinance company ,emmanuelsimonpanyani@gmail.com,No,No,Yes,Yes,Online
+7/26/2023 8:22:18,Dzupire,Nelson,Male,Malawi,Junior Researcher,University of Malawi,ndzupire@unima.ac.mw,Yes,No,Yes,Yes,"Physical, Online"
+7/26/2023 8:34:50,Basikolo,Solomon ,Male,Malawian,MSc Student,LILONGWE UNIVERSITY OF AGRICULTURE AND NATURAL RESOURCES ,solomondamson@gmail.com,Yes,No,Yes,Yes,Physical
+7/26/2023 9:51:55,Chilembwe,Harvey,Male,Malawian,MSc Student,University of Malawi,hchilembwe@unima.ac.mw,No,No,Yes,Yes,Physical
+7/26/2023 13:24:49,Gwaligwali,Jonathan,Male,Malawian,Junior Researcher,University of Malawi,jgwaligwali@unima.ac.mw,No,No,Yes,Yes,Physical
+7/26/2023 15:39:05,Mwangomba ,Ipyana,Male,Malawian ,MSc Student,Lilongwe University of Agriculture and Natural Resources ,epyanamwangomba@gmail.com,Yes,No,Yes,Yes,Online
+7/26/2023 18:13:52,Mponda ,Alick ,Male,Malawian ,Senior Researcher,Chitedze Research station ,mpondaalick@gmail.com ,Yes,Yes,Yes,Yes,Physical
+7/27/2023 9:59:38,Kachali,Righteous Wanangwa,Male,Malawian,Junior Researcher,Lilongwe university of Agriculture and Natural Resources,righteousulunjikachali2016@gmail.com,No,No,Yes,Yes,Physical
+7/28/2023 8:48:30,Bertha,Chiwalo,Female,Malawian,Junior Researcher,Mulanje District Council,berthachiwalo@gmail.com,No,No,No,Yes,Online
+7/28/2023 12:36:44,Gausi ,Sangwani ,Male,Malawian ,Junior Researcher,University of Malawi ,odl-dip-sta-55-20@unima.ac.mw,Yes,No,Yes,Yes,Online
+7/30/2023 20:10:02,Chasankha,Wisdom,Male,Malawi,Senior Researcher,Lilongwe university of agriculture and natural resources,wchasankha@gmail.com,Yes,Yes,Yes,Yes,Online
+7/31/2023 12:32:29,Banda,Watson,Male,Malawi,MSc Student,No,watsondangotebabalao@gmail.com,No,No,No,Yes,Online
+7/31/2023 12:50:25,Hansingo,Elfridah,Female,Zambia,MSc Student,Lilongwe University of Agriculture and Natural Resources,elfridahhansingo@gmail.com,Yes,No,Yes,Yes,Online
+7/31/2023 13:00:53,Makweya,Stanislous ,Male,Malawi,Degree Student ,Catholic university of Malawi ,makweyabandastanislous@gmail.com,No,No,Yes,Yes,Online
+7/31/2023 13:00:58,Makhanga ,Francis ,Male,Malawi,Degree Student,Catholic university of Malawi,fmakhanga@gmail.com,No,No,Yes,Yes,Online
+7/31/2023 21:55:39,Sumani,Akimu,Male,Malawian,Accountant ,TNM Plc,akimusumaniallie@gmail.com,No,No,Yes,Yes,Online
+8/1/2023 19:07:02,Gundani,Japheth,Male,Malawian,Undegraduate student,University of Malawi,japhethgundani@gmail.com,Yes,No,Yes,Yes,Online
+8/1/2023 20:09:43,Jessie,Akambadi,Female,Malawi,MSc Student,University of Malawi,jakambadi@unima.ac.mw,No,No,Yes,Yes,Online
+8/3/2023 10:17:46,Madziataika ,Martha,Female,Malawi ,BSc ,Malawi University of Science and Technology ,mfmadziataika@gmail.com,No,No,Yes,Yes,Online
+8/6/2023 14:47:20, Ntamwiza,Jean Marie Vianney,Male,Rwanda,PhD Student,University of Dar es salaam,ntamwizajeanmarie@gmail.com,Yes,No,Yes,Yes,Physical
+8/9/2023 17:39:47,Ngwira,Getrude,Female,Malawian,Senior Researcher,Catholic University of Malawi,getrude.ngwira@cunima.ac.mw,No,No,Yes,Yes,Online
+8/10/2023 6:50:47,Mkwinda,Charles ,Male,Malawian,Junior Researcher,Catholic university ,charles.mkwinda@cunima.ac.mw,No,No,Yes,Yes,Online
+8/10/2023 13:03:49,Henga,Sylvia ,Female,Kenya-,Junior Researcher,,henga.sylvia@ku.ac.ke,No,No,Yes,Yes,Physical
+8/12/2023 6:44:52,Mwenebanda ,Blessings,Male,Malawi,Junior Researcher,Catholic University ,blessingsmwenibanda4@gmail.com,No,No,Yes,Yes,Online
+8/17/2023 16:00:42,Mkenda ,Theresia Bonifasi ,Female,Tanzania ,Senior Researcher,Mwenge Catholic University ,theresiamkenda76@gmail.com ,No,No,Yes,Yes,Online
+8/17/2023 16:12:30,Maria,Oguche,Female,Nigeria,PhD Student,University of Hohenheim ,mariaebiojo@gmail.com,No,No,No,Yes,Physical
+8/17/2023 16:13:57,Igbokwe,Casmir,Male,Nigeria ,Senior Researcher,Liliongwe university of Agriculture and Natural Resources ,casmir.igbokwe@unn.edu.ng,No,No,Yes,Yes,"Physical, Online"
+8/17/2023 16:15:48,Mwapinga,Annord,Male,Tanzania,Lecturer,Mwenge Catholic University ,annord.mwapinga@mwecau.ac.tz,No,No,Yes,Yes,Online
+8/17/2023 16:21:41,Oranu,Chizoba,Female,Nigeria ,PhD Student,University of Nigeria Nsukka ,chizoba.oranu@unn.edu.ng,No,No,Yes,Yes,Physical
+8/17/2023 16:26:16,Black ,Esther ,Female,Malawi ,BSc student ,LUANAR ,estherblack102@gmail.com ,No,No,No,Yes,Physical
+8/17/2023 16:26:21,Adeyemi ,Abiodun ,Male,Nigeria ,PostDoc Student,University of Ibadan ,gokeadeyemi11@gmail.com,No,No,No,Yes,Online
+8/17/2023 16:28:30,KILUSUNGU,ZAINABU,Female,TANZANIA,PhD Student,Lilongwe University of Agriculture and Natural Resources,h.zainabu@yahoo.com,Yes,Yes,Yes,Yes,Online
+8/17/2023 16:29:26,Daniel,Augustine Innalegwu,Male,Nigeria,PhD Student,University of the Western Cape,4112896@myuwc.ac.za,No,No,Yes,Yes,Online
+8/17/2023 16:36:58,Bishubo,Mosses,Male,Tanzania,Junior Researcher,Management and Development for Health,mbishubo@gmail.com,No,No,Yes,Yes,Online
+8/17/2023 16:37:39,Ogbole,Alexandr,Female,Nigeria,PhD Student,"Plateau State University, Jos",alexandraogbole22@gmail.com,No,No,Yes,Yes,Online
+8/17/2023 16:40:08,Namtanga ,Saidi,Male,Tanzania,Data Analyst ,Management anda Development for Health,namtanga@gmail.com ,Yes,Yes,Yes,Yes,Online
+8/17/2023 16:41:20,MAWINGU ,SHABANI ,Male,ZANZIBAR ,Junior Researcher,IMMIGRATION TANZANIA ,mawingusbn@gmail.com ,No,No,Yes,Yes,Online
+8/17/2023 16:41:34,Muyira,John,Male,Malawian,Alumnus,LUANAR,johnmuyira3@gmail.com,No,No,Yes,Yes,Physical
+8/17/2023 16:44:31,Mwambene ,Charles ,Male,TANZANIA ,Junior Researcher,Leo Kesho Organization ,mwambenecharles@gmail.com,No,No,Yes,Yes,Online
+8/17/2023 16:45:17,Abel,Joseph,Male,Tanzanian,MSc Student,Institute of Accountancy Arusha,abeljoseph92@yahoo.com,No,No,Yes,Yes,Online
+8/17/2023 16:45:25,HASSAN,Yussuf,Male,Tanzanian,MSc Student,University of Dar es Salaam,yussufh18@gmail.com,No,No,Yes,Yes,"Physical, Online"
+8/17/2023 16:48:29,Juta,Queen,Male,Malawi,Junior Researcher,LUANAR,aliciajuta@gmail.com,No,No,Yes,Yes,Online
+8/17/2023 16:50:05,Fousseni,Aliou,Male,Beninese,PhD Student,Lilongwe University of Agriculture and Natural Resources (LUANAR),alioufouss@yahoo.fr,No,No,Yes,Yes,Online
+8/17/2023 16:50:31,Kabipi,Emmanuel ,Male,Tanzanian,Junior Researcher,Nsimbo District Council ,kabipi.immah@gmail.com,Yes,No,Yes,Yes,Online
+8/17/2023 16:53:40,RAMADHAN,IDD,Male,Tanzania ,Bachelor degree ,MWENGE CATHOLIC UNIVERSITY ,iddramadhan05@gmail.com ,Yes,Yes,Yes,Yes,"Physical, Online"
+8/17/2023 16:54:15,KAMENDU,ELIUD,Male,TANZANIAN,Junior Researcher,OUT,eliudkamendu@gmail.com,No,No,Yes,Yes,Online
+8/17/2023 17:05:35,Simbeye,Petro,Male,Tanzania,Junior Researcher,Deloitte,Ruvuma,No,No,Yes,Yes,Online
+8/17/2023 17:07:55,Latola,Andrea,Male,Tanzania,Senior Researcher,Tanzania Women Research Foundation,latolaandrea@gmail.com,Yes,Yes,Yes,Yes,Online
+8/17/2023 17:16:18,Mchali,Comfort ,Female,Malawi,Undergraduate student,Bunda LUANAR,comfortmchali@gmail.com,No,No,Yes,Yes,Online
+8/17/2023 17:33:23,Barker,Adelé,Female,South Africa,PhD Student,University of the Western Cape,adelebarker86@gmail.com,Yes,No,No,Yes,Online
+8/17/2023 17:42:40,Kiswaga,Amishady ,Male,Tanzania ,Junior Researcher,Seed company ,lutambiamishady@gmail.com ,No,No,Yes,Yes,Online
+8/17/2023 17:45:37,Chalusa,Morris,Male,Malawia,Junior Researcher,Ministry of Health Malawi,morrischalusa@yahoo.com,No,Yes,Yes,Yes,Online
+8/17/2023 17:52:34,Banda,Thomson,Male,Malawi,Junior Researcher,LUANAR,thomsonbandabvm@gmail.com,No,No,Yes,Yes,Online
+8/17/2023 17:59:10,Mkandawire ,Kholiwe ,Female,Malawi ,PhD Student,LUANAR ,kholiwemkanda@gmail.com,Yes,Yes,Yes,Yes,Online
+8/17/2023 19:27:11,Lamaro ,Gloria Peace ,Female,Uganda ,PhD Student,Mekelle University ,peaceglam@gmail.com,No,No,Yes,Yes,"Physical, Online"
+8/17/2023 19:32:11,Kammwamba,Alice,Female,Malawi,Senior Researcher,Lilongwe University of Agriculture and Natural Resources,akammwamba@gmail.com,Yes,No,Yes,Yes,Physical
+8/17/2023 20:26:40,Mulebya ,Francisca ,Female,Tanzania ,MSc graduate seeking PhD position ,Mwenge Catholic University ,franciscajustin5@gmail.com,Yes,Yes,Yes,Yes,Online
+8/17/2023 21:14:37,Atekem Aziseh,Kareen,Female,Cameroon,PhD Student,Pennsylvania State University,kareenapowers@gmail.com,Yes,No,Yes,Yes,Online
+8/17/2023 21:20:17,Chatsika,Tinashe,Female,Malawi,Junior Researcher,"Ombusdman, Ministry of Justice",tinashe.chatsika@gmail.com ,,,,,
