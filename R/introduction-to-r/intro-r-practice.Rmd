@@ -3,8 +3,8 @@ title: "Introduction to R"
 author: "Pachalo Chizala"
 date: "`r Sys.Date()`"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
   word_document: default
 ---
 
@@ -292,7 +292,8 @@ grepl() is a function used to test if a string is contained in another string. U
 
 
 ## Descriptive Statistics
-### Frequencies
+### Quantitative Variables
+### Qualitative Variables
 
 It is not uncommon to tabulate frequencies for certain categories of variable. For example, we may want to know how many males are in our data set; or the proportion of . 
 ```{r}
