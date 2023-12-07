@@ -292,7 +292,14 @@ grepl() is a function used to test if a string is contained in another string. U
 
 
 ## Descriptive Statistics
+With a data file of 10 individuals, it could be easier to list or report age of each person. This is usually not feasible. Therefore, it is imperative to find a number that typically reflects all the values.
 ### Quantitative Variables
+### Measures of Central Tendancy
+#### Min
+#### Max
+#### Median
+#### Mean/Average
+
 ### Qualitative Variables
 
 It is not uncommon to tabulate frequencies for certain categories of variable. For example, we may want to know how many males are in our data set; or the proportion of . 
@@ -363,6 +370,7 @@ Often times in household surveys, interviewers are conducted at household level,
 Let's assume we have two separate but related data sets. To demonstrate the concept, we will create a small data set so that we easily observe the changes. We will merge this data with our mydata data frame.
 
 ```{r}
+options(width = 100)
 #Creating some data
 set.seed(65767)
 id <- sample(1:16, 7, replace = F )
@@ -421,7 +429,7 @@ The pipe operator, (%>%), feeds the results of one operation into the next opera
 
 
 ```{r}
-
+options(width = 300)
 set.seed(356863)
 region <- sample(1:3,1000, prob = c(0.2,0.5,0.3), replace = T)
 distr <- c(sample(1:7,200,replace = T),sample(1:10,504,replace = T),sample(1:15,296,replace = T))
